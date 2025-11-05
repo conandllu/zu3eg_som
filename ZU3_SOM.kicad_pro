@@ -567,15 +567,81 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_Code",
+          "name": "LCSC_Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_LibSource",
+          "name": "LCSC_LibSource",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturing Status",
+          "name": "Manufacturing Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part-DB Footprint",
+          "name": "Part-DB Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part-DB ID",
+          "name": "Part-DB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part_Number",
+          "name": "Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "位号"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {

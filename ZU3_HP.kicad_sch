@@ -5,7 +5,7 @@
 	(uuid "756b07f4-01d6-4070-b8c9-d919e5a28a19")
 	(paper "A4")
 	(lib_symbols
-		(symbol "User:XAZU3EGSFVA625"
+		(symbol "User:XCZU3EGSFVA625"
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -114,7 +114,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_1_0"
+			(symbol "XCZU3EGSFVA625_1_0"
 				(pin passive line
 					(at -13.97 10.16 0)
 					(length 5.08)
@@ -278,7 +278,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_1_1"
+			(symbol "XCZU3EGSFVA625_1_1"
 				(rectangle
 					(start -8.89 15.24)
 					(end 8.89 -15.24)
@@ -309,7 +309,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_2_0"
+			(symbol "XCZU3EGSFVA625_2_0"
 				(pin passive line
 					(at -27.94 10.16 0)
 					(length 5.08)
@@ -779,7 +779,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_2_1"
+			(symbol "XCZU3EGSFVA625_2_1"
 				(rectangle
 					(start -22.86 20.32)
 					(end 22.86 -20.32)
@@ -801,7 +801,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_3_0"
+			(symbol "XCZU3EGSFVA625_3_0"
 				(pin passive line
 					(at -43.18 38.1 0)
 					(length 5.08)
@@ -1811,7 +1811,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_3_1"
+			(symbol "XCZU3EGSFVA625_3_1"
 				(rectangle
 					(start -38.1 41.91)
 					(end 38.1 -41.91)
@@ -1833,7 +1833,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_4_0"
+			(symbol "XCZU3EGSFVA625_4_0"
 				(pin passive line
 					(at -43.18 38.1 0)
 					(length 5.08)
@@ -2843,7 +2843,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_4_1"
+			(symbol "XCZU3EGSFVA625_4_1"
 				(rectangle
 					(start -38.1 41.91)
 					(end 38.1 -41.91)
@@ -2865,7 +2865,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_5_0"
+			(symbol "XCZU3EGSFVA625_5_0"
 				(pin passive line
 					(at -43.18 38.1 0)
 					(length 5.08)
@@ -3875,7 +3875,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_5_1"
+			(symbol "XCZU3EGSFVA625_5_1"
 				(rectangle
 					(start -38.1 41.91)
 					(end 38.1 -41.91)
@@ -3897,7 +3897,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_6_0"
+			(symbol "XCZU3EGSFVA625_6_0"
 				(pin passive line
 					(at -22.86 6.35 0)
 					(length 5.08)
@@ -4421,7 +4421,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_6_1"
+			(symbol "XCZU3EGSFVA625_6_1"
 				(rectangle
 					(start -17.78 27.94)
 					(end 17.78 -27.94)
@@ -4443,7 +4443,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_7_0"
+			(symbol "XCZU3EGSFVA625_7_0"
 				(pin passive line
 					(at -22.86 6.35 0)
 					(length 5.08)
@@ -4967,7 +4967,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_7_1"
+			(symbol "XCZU3EGSFVA625_7_1"
 				(rectangle
 					(start -17.78 27.94)
 					(end 17.78 -27.94)
@@ -4989,7 +4989,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_8_0"
+			(symbol "XCZU3EGSFVA625_8_0"
 				(pin passive line
 					(at -22.86 6.35 0)
 					(length 5.08)
@@ -5513,7 +5513,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_8_1"
+			(symbol "XCZU3EGSFVA625_8_1"
 				(rectangle
 					(start -17.78 27.94)
 					(end 17.78 -27.94)
@@ -5535,7 +5535,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_9_0"
+			(symbol "XCZU3EGSFVA625_9_0"
 				(pin passive line
 					(at -22.86 13.97 0)
 					(length 5.08)
@@ -5951,7 +5951,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_9_1"
+			(symbol "XCZU3EGSFVA625_9_1"
 				(rectangle
 					(start -17.78 27.94)
 					(end 17.78 -27.94)
@@ -5973,7 +5973,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_10_0"
+			(symbol "XCZU3EGSFVA625_10_0"
 				(pin passive line
 					(at -27.94 74.93 0)
 					(length 5.08)
@@ -7793,7 +7793,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_10_1"
+			(symbol "XCZU3EGSFVA625_10_1"
 				(rectangle
 					(start -22.86 83.82)
 					(end 22.86 -83.82)
@@ -7815,7 +7815,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_11_0"
+			(symbol "XCZU3EGSFVA625_11_0"
 				(pin passive line
 					(at -27.94 19.05 0)
 					(length 5.08)
@@ -8267,7 +8267,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_11_1"
+			(symbol "XCZU3EGSFVA625_11_1"
 				(rectangle
 					(start -22.86 26.67)
 					(end 22.86 -26.67)
@@ -8289,7 +8289,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_12_0"
+			(symbol "XCZU3EGSFVA625_12_0"
 				(pin passive line
 					(at -22.86 74.93 0)
 					(length 5.08)
@@ -10523,7 +10523,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_12_1"
+			(symbol "XCZU3EGSFVA625_12_1"
 				(rectangle
 					(start -17.78 83.82)
 					(end 17.78 -83.82)
@@ -10536,7 +10536,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_13_0"
+			(symbol "XCZU3EGSFVA625_13_0"
 				(pin passive line
 					(at -22.86 63.5 0)
 					(length 5.08)
@@ -11636,7 +11636,7 @@
 					)
 				)
 			)
-			(symbol "XAZU3EGSFVA625_13_1"
+			(symbol "XCZU3EGSFVA625_13_1"
 				(rectangle
 					(start -17.78 71.12)
 					(end 17.78 -71.12)
@@ -11653,7 +11653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "User:XAZU3EGSFVA625")
+		(lib_id "User:XCZU3EGSFVA625")
 		(at 90.17 82.55 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -13635,7 +13635,7 @@
 		)
 	)
 	(symbol
-		(lib_id "User:XAZU3EGSFVA625")
+		(lib_id "User:XCZU3EGSFVA625")
 		(at 196.85 82.55 0)
 		(unit 5)
 		(exclude_from_sim no)
