@@ -385,6 +385,190 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "User:MLCC 22pF 50V ±5% C0G 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22pF/50V"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/464/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors/MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "FH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402CG220J500NT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "C0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "464"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MLCC 22pF 50V ±5% C0G 0402_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MLCC 22pF 50V ±5% C0G 0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "User:MLCC 470nF 10V ±10% X5R 0402"
 			(pin_numbers
 				(hide yes)
@@ -552,6 +736,200 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "User:NX3215SA-32.768KHZ-EXS00A-MU00466"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "32.768KHz"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/526/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "ICs/XTAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NX3215SA-32.768KHZ-EXS00A-MU00466"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "XTAL_3215_2P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NX3215SA-32.768KHZ-EXS00A-MU00466_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NX3215SA-32.768KHZ-EXS00A-MU00466_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -868,6 +1246,513 @@
 				)
 			)
 			(symbol "RES 20.5Kohm 1% 1/16W 0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "User:RES 22ohm 1% 1/16W 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/40/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors/SMD-RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402WGF220JTCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "40"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES 22ohm 1% 1/16W 0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES 22ohm 1% 1/16W 0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "User:RES 4.7Kohm 1% 1/16W 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4K7"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors/SMD-RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402WGF4701TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "11"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES 4.7Kohm 1% 1/16W 0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES 4.7Kohm 1% 1/16W 0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "User:RES 4.7Mohm 1% 1/16W 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4M7"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/527/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors/SMD-RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0402FR-074M7L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "527"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES 4.7Mohm 1% 1/16W 0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES 4.7Mohm 1% 1/16W 0402_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -24586,6 +25471,24 @@
 		(uuid "1a756721-b8e5-497f-9b9c-4e2f5561018a")
 	)
 	(junction
+		(at 133.35 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c049e05-ec30-4f4e-845d-7682443dfea9")
+	)
+	(junction
+		(at 133.35 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4263710c-fc25-4cdd-8ae1-1b023508f10a")
+	)
+	(junction
+		(at 133.35 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6950d250-8c1a-4930-94e7-f2bf4dffcce5")
+	)
+	(junction
 		(at 81.28 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24598,16 +25501,40 @@
 		(uuid "77a10165-ad55-4bf4-953c-aaa2f275d294")
 	)
 	(junction
+		(at 133.35 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e0b2b48-619f-4649-97b4-ee60ca67068d")
+	)
+	(junction
 		(at 83.82 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "916f5757-f9f0-4a1b-abb5-84de12c201ae")
 	)
 	(junction
+		(at 120.65 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9474b866-4f91-411e-acaa-8eb6943859fb")
+	)
+	(junction
+		(at 133.35 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a03ab3b-3a1e-44e3-a740-4f26e857024e")
+	)
+	(junction
 		(at 99.06 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9beb85e8-af5a-4e14-aecc-b75f78f379a9")
+	)
+	(junction
+		(at 133.35 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a11fc0f9-9363-4dec-887c-f20858ebcbe6")
 	)
 	(junction
 		(at 81.28 220.98)
@@ -24622,10 +25549,22 @@
 		(uuid "ad72ec90-2aa7-428d-b19a-716e0644f9f9")
 	)
 	(junction
+		(at 133.35 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c09273e3-571d-46fc-94cf-97055d8181aa")
+	)
+	(junction
 		(at 102.87 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c35a7811-7b76-44be-8639-d75cbd465633")
+	)
+	(junction
+		(at 133.35 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b87e97-4f46-494d-b816-3ba9173196aa")
 	)
 	(junction
 		(at 99.06 208.28)
@@ -24693,6 +25632,56 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 250.19) (xy 133.35 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab4f27f-44ed-4591-aee8-f8e4b9c31ced")
+	)
+	(wire
+		(pts
+			(xy 120.65 262.89) (xy 120.65 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf05b75-c937-4935-b495-f990c37be928")
+	)
+	(wire
+		(pts
+			(xy 133.35 260.35) (xy 130.81 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1749f6-9a4b-443f-86e3-a1f7a89368c5")
+	)
+	(wire
+		(pts
+			(xy 148.59 259.08) (xy 148.59 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f547546-7115-4aac-aa68-6d92e26da974")
+	)
+	(wire
+		(pts
+			(xy 144.78 190.5) (xy 161.29 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d73ca0-deef-41e7-ac2e-a288cffafbe5")
+	)
+	(wire
+		(pts
 			(xy 92.71 189.23) (xy 102.87 189.23)
 		)
 		(stroke
@@ -24700,6 +25689,26 @@
 			(type default)
 		)
 		(uuid "1204141e-7140-4973-bd45-cf27d26d36ea")
+	)
+	(wire
+		(pts
+			(xy 133.35 193.04) (xy 137.16 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1411edc7-fe14-4a4a-b10d-67fe304854e2")
+	)
+	(wire
+		(pts
+			(xy 144.78 210.82) (xy 161.29 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14415e73-4be2-43c5-bf6a-0a7532bde392")
 	)
 	(wire
 		(pts
@@ -24733,6 +25742,106 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 198.12) (xy 133.35 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa5ad39-3b0e-4761-bde0-08299447be4f")
+	)
+	(wire
+		(pts
+			(xy 144.78 228.6) (xy 148.59 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad2dda9-a88b-4d9a-80f8-8643b4dc77d1")
+	)
+	(wire
+		(pts
+			(xy 144.78 208.28) (xy 161.29 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd1684d-5078-44db-81af-9144df572ec4")
+	)
+	(wire
+		(pts
+			(xy 144.78 193.04) (xy 161.29 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e4cba1-7a05-4178-806d-3f3770f99693")
+	)
+	(wire
+		(pts
+			(xy 133.35 257.81) (xy 133.35 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219fd4d8-aa9e-4cef-b6f3-77ffba6b7c88")
+	)
+	(wire
+		(pts
+			(xy 120.65 250.19) (xy 123.19 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24365d97-3a19-438c-9305-fde64a65923d")
+	)
+	(wire
+		(pts
+			(xy 133.35 250.19) (xy 148.59 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249f88a6-ae97-446e-950e-9e94600269ba")
+	)
+	(wire
+		(pts
+			(xy 133.35 203.2) (xy 133.35 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5b1580-b683-4b90-819f-f65533258990")
+	)
+	(wire
+		(pts
+			(xy 148.59 251.46) (xy 148.59 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9f4044-ee5a-4a91-9d94-e9a2ad54f31a")
+	)
+	(wire
+		(pts
+			(xy 133.35 195.58) (xy 133.35 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3f04fd-ace1-4549-8024-9dafeca546c9")
+	)
+	(wire
+		(pts
 			(xy 81.28 194.31) (xy 85.09 194.31)
 		)
 		(stroke
@@ -24753,6 +25862,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 198.12) (xy 161.29 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410adf51-738f-46fb-bb70-d76ba9f36900")
+	)
+	(wire
+		(pts
 			(xy 81.28 220.98) (xy 81.28 223.52)
 		)
 		(stroke
@@ -24760,6 +25879,16 @@
 			(type default)
 		)
 		(uuid "432ef2f1-2f48-40e9-80e3-87e822e4d898")
+	)
+	(wire
+		(pts
+			(xy 133.35 205.74) (xy 133.35 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4639bcc2-6481-4815-87f8-eb7227ecf096")
 	)
 	(wire
 		(pts
@@ -24843,6 +25972,46 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 260.35) (xy 148.59 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67422d91-e87e-4c7a-9b7e-ca3bc8c23ade")
+	)
+	(wire
+		(pts
+			(xy 144.78 203.2) (xy 161.29 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c8fd4d-80ae-43cd-974e-959ba42f56b4")
+	)
+	(wire
+		(pts
+			(xy 133.35 250.19) (xy 133.35 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b793e7b-18fa-4b19-ac6e-c881dc6ee3ef")
+	)
+	(wire
+		(pts
+			(xy 144.78 195.58) (xy 161.29 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5b1bf7-ffdd-49f0-9d89-0ca30c7195f9")
+	)
+	(wire
+		(pts
 			(xy 81.28 189.23) (xy 81.28 194.31)
 		)
 		(stroke
@@ -24850,6 +26019,36 @@
 			(type default)
 		)
 		(uuid "6f3314f6-cbb3-499e-a31d-5b2ebdabf529")
+	)
+	(wire
+		(pts
+			(xy 144.78 205.74) (xy 161.29 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c82014-b51e-43f0-b945-2e8a0bda782e")
+	)
+	(wire
+		(pts
+			(xy 120.65 260.35) (xy 123.19 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c70fab-7c4d-4626-9e14-8fda9bfc46f6")
+	)
+	(wire
+		(pts
+			(xy 133.35 198.12) (xy 137.16 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74240ff3-8231-479e-8512-396e4551c216")
 	)
 	(wire
 		(pts
@@ -24893,6 +26092,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 213.36) (xy 133.35 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817c0f26-3049-43f5-a58b-19015f73a18a")
+	)
+	(wire
+		(pts
 			(xy 81.28 200.66) (xy 81.28 220.98)
 		)
 		(stroke
@@ -24933,6 +26142,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 190.5) (xy 137.16 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf43c29-876a-4828-a021-c22338fdcf9e")
+	)
+	(wire
+		(pts
 			(xy 83.82 205.74) (xy 88.9 205.74)
 		)
 		(stroke
@@ -24950,6 +26169,56 @@
 			(type default)
 		)
 		(uuid "96823b2d-085f-4a50-93e9-0d65e8f5091d")
+	)
+	(wire
+		(pts
+			(xy 133.35 210.82) (xy 137.16 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e05ee2e-1237-4670-82e8-128b642603fc")
+	)
+	(wire
+		(pts
+			(xy 133.35 190.5) (xy 133.35 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f46fc9c-5826-4620-89ee-0abec77c1b35")
+	)
+	(wire
+		(pts
+			(xy 133.35 203.2) (xy 137.16 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedf54b8-605b-4958-a67a-4c2baf7a39f6")
+	)
+	(wire
+		(pts
+			(xy 133.35 205.74) (xy 137.16 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72074bb-6a6a-41ab-a898-118d6e3e2eba")
+	)
+	(wire
+		(pts
+			(xy 144.78 218.44) (xy 161.29 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e3eade-040a-411f-a886-72c8d64ed4b0")
 	)
 	(wire
 		(pts
@@ -24973,6 +26242,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 187.96) (xy 133.35 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04aaef3-55d6-4645-a2d8-75edaa44a220")
+	)
+	(wire
+		(pts
 			(xy 35.56 201.93) (xy 35.56 199.39)
 		)
 		(stroke
@@ -24983,6 +26262,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 228.6) (xy 161.29 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5213871-0b8f-4f19-a99f-c7986dc68e9d")
+	)
+	(wire
+		(pts
 			(xy 45.72 199.39) (xy 48.26 199.39)
 		)
 		(stroke
@@ -24990,6 +26279,16 @@
 			(type default)
 		)
 		(uuid "d0e37073-6295-42f9-a81b-2932c131ef78")
+	)
+	(wire
+		(pts
+			(xy 133.35 195.58) (xy 137.16 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1eda90f-7248-4bc3-869a-ad4a0b851f2c")
 	)
 	(wire
 		(pts
@@ -25023,6 +26322,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 215.9) (xy 161.29 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d79354-4f09-4d39-9829-df2c9319a24e")
+	)
+	(wire
+		(pts
 			(xy 99.06 223.52) (xy 99.06 220.98)
 		)
 		(stroke
@@ -25030,6 +26339,16 @@
 			(type default)
 		)
 		(uuid "e55e6a25-ee5c-4ce1-a167-29783adf08f3")
+	)
+	(wire
+		(pts
+			(xy 120.65 260.35) (xy 120.65 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90ec9fe-32c9-465a-a53c-de14a5a0b57a")
 	)
 	(wire
 		(pts
@@ -25043,6 +26362,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 208.28) (xy 137.16 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad7700e-04a3-44c6-93b0-5e4e60c34589")
+	)
+	(wire
+		(pts
+			(xy 133.35 193.04) (xy 133.35 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcf11b3-1d7b-4d9a-998d-e0a75df9ffff")
+	)
+	(wire
+		(pts
 			(xy 99.06 208.28) (xy 99.06 220.98)
 		)
 		(stroke
@@ -25050,6 +26389,137 @@
 			(type default)
 		)
 		(uuid "fcfc4c5e-d0e7-4d00-a36d-17f00832f225")
+	)
+	(label "PS_JTAG_TDO"
+		(at 160.02 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2732bbee-afba-4a3a-aad5-711d1e8ef6a4")
+	)
+	(label "PS_MODE3"
+		(at 157.48 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53723928-59d9-4873-ae03-dcab4e9ccd94")
+	)
+	(label "PS_MODE0"
+		(at 157.48 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bf3b346-93b1-4209-bcbc-e37f0218e524")
+	)
+	(label "PS_32K_DI"
+		(at 146.05 250.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80b99ed7-320f-49c0-a3f7-b462108c6b11")
+	)
+	(label "PS_MODE1"
+		(at 157.48 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93b2f050-e341-4f50-b456-1e2fdcdae075")
+	)
+	(label "PS_MODE2"
+		(at 157.48 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94173b88-3754-4b66-8912-5f895b6e21f6")
+	)
+	(label "PS_JTAG_TDI"
+		(at 160.02 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f6b169c-bdd1-4253-a0cf-f2c4ed93cfab")
+	)
+	(label "PS_32K_DO"
+		(at 157.48 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6dba72c-d000-43f1-95aa-c210ab1dba6a")
+	)
+	(label "PS_JTAG_TCK"
+		(at 160.02 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba74eb9a-cc10-4f59-b7c3-743e7ea578e9")
+	)
+	(label "PS_JTAG_TMS"
+		(at 160.02 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e21fdb53-8e6d-4ff1-9d1b-c6997bcf2f0a")
+	)
+	(label "PS_32K_DI"
+		(at 157.48 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e419b496-1d7f-4a3f-8e2b-677ad2a2f1b3")
+	)
+	(label "PS_32K_DO"
+		(at 146.05 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f457a5be-48df-4519-8baf-a3a7cc7288e1")
+	)
+	(hierarchical_label "PS_SRST_B"
+		(shape input)
+		(at 144.78 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5060e637-6be4-4e1b-86ee-6c010dc09a30")
 	)
 	(symbol
 		(lib_id "User:TP_D1")
@@ -25325,6 +26795,250 @@
 			(project "ZU3_SOM"
 				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:MLCC 22pF 50V ±5% C0G 0402")
+		(at 127 260.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14446dee-1997-486a-a10b-ccbef5b4c027")
+		(property "Reference" "C46"
+			(at 124.968 256.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF/50V"
+			(at 121.92 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 123.19 261.3152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/464/info"
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/MLCC"
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH"
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402CG220J500NT"
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C0402"
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "464"
+			(at 127 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d8f5392-1780-475f-b8a6-c1291d45e0b3")
+		)
+		(pin "1"
+			(uuid "70129971-39cd-4b63-bb71-0c4d5b4453ab")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 205.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e0d10a2-9753-41eb-9c11-634263dd4a38")
+		(property "Reference" "R13"
+			(at 135.89 204.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 207.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5339100-256d-41ba-a26e-5c577dbe587d")
+		)
+		(pin "1"
+			(uuid "8b7ccbe8-b65e-49f3-8ec8-8d906fae2263")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -27566,6 +29280,192 @@
 		)
 	)
 	(symbol
+		(lib_id "User:NX3215SA-32.768KHZ-EXS00A-MU00466")
+		(at 133.35 255.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c6e0225-57a6-4d66-8b0b-5ea2464e1ca8")
+		(property "Reference" "Y1"
+			(at 135.382 253.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32.768KHz"
+			(at 140.208 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/526/info"
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "ICs/XTAL"
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" ""
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "XTAL_3215_2P"
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "526"
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NDK"
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NX3215SA-32.768KHZ-EXS00A-MU00466"
+			(at 133.35 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "556607fb-19c7-48d9-bca4-6e4a153fa549")
+		)
+		(pin "1"
+			(uuid "95ad3c6f-7092-4be1-b38b-58fcb12dff3e")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "419150f3-513e-4f59-973e-9425e644f400")
+		(property "Reference" "#PWR033"
+			(at 133.35 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec2cfbe1-90bd-459a-9008-8fac8bce380e")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "XCZU3EGSFVA625_1")
 		(lib_id "User:XCZU3EGSFVA625")
 		(at 303.53 203.2 0)
@@ -29614,6 +31514,248 @@
 		)
 	)
 	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "600d6afd-a25a-4853-8781-ad1228e1ad23")
+		(property "Reference" "R17"
+			(at 135.89 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 197.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fb75fe8-1654-45e4-a302-fc6f23283d71")
+		)
+		(pin "1"
+			(uuid "6ab0f541-b971-4511-ab9d-5a39179ac01f")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6858916c-5d06-46b4-a789-7bdcfedf8a3b")
+		(property "Reference" "R11"
+			(at 135.89 209.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 212.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2aa2b0fe-fbc4-4528-a9cf-2e48bada4455")
+		)
+		(pin "1"
+			(uuid "36b3ba29-dfc2-488d-afbe-a04c0192cbb1")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "User:XCZU3EGSFVA625")
 		(at 260.35 81.28 0)
 		(unit 8)
@@ -31596,6 +33738,192 @@
 		)
 	)
 	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73596d74-e80f-4b87-9a16-6518a7b3cd28")
+		(property "Reference" "R15"
+			(at 135.89 189.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 192.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d55ca534-6e4a-4246-944b-f3e39dff3a8c")
+		)
+		(pin "1"
+			(uuid "7c38e289-9f10-4b68-a190-352b514634ba")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 133.35 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "836f1697-536e-4fd7-a026-96daf7c81b50")
+		(property "Reference" "#PWR034"
+			(at 133.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IO_3V3"
+			(at 133.35 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 133.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1fb2a3b-5271-4c2d-b7f6-139ab38ce7c9")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "User:MLCC 470nF 10V ±10% X5R 0402")
 		(at 88.9 194.31 90)
 		(unit 1)
@@ -31840,6 +34168,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94f69561-8955-472c-9f39-a255ff695d29")
+		(property "Reference" "#PWR035"
+			(at 120.65 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0833e60-ae30-4ab3-bea9-c50e69b56f61")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "User:XCZU3EGSFVA625")
 		(at 184.15 204.47 0)
 		(unit 9)
@@ -31847,10 +34240,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99d767e5-416b-4b32-9e58-b31e1a213516")
 		(property "Reference" "U1"
-			(at 184.15 171.45 0)
+			(at 167.894 175.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31858,7 +34250,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 184.15 173.99 0)
+			(at 173.482 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33915,6 +36307,371 @@
 		)
 	)
 	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a82895-9206-487a-925d-507d2238e13f")
+		(property "Reference" "R12"
+			(at 135.89 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 204.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6c09129-928b-499a-a0b5-5288891e9960")
+		)
+		(pin "1"
+			(uuid "f1c38673-4755-47c8-89c4-bf6ca1352546")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a54010ec-95c7-4c13-9be3-284fa838666a")
+		(property "Reference" "R16"
+			(at 135.89 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 194.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98e532e6-aa08-478e-8db6-20a91187c7c8")
+		)
+		(pin "1"
+			(uuid "05a32544-5546-49f5-b53d-80a79ff3a319")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:MLCC 22pF 50V ±5% C0G 0402")
+		(at 127 250.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6172006-7f89-4423-a4b9-e0bc52a471c3")
+		(property "Reference" "C45"
+			(at 124.968 246.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF/50V"
+			(at 121.92 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 123.19 251.1552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/464/info"
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/MLCC"
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH"
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402CG220J500NT"
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C0402"
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "464"
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05d5962f-963a-46f1-874e-4ace10f3bb9e")
+		)
+		(pin "1"
+			(uuid "c4015150-93a5-40b4-b6dd-283c2b53e8c2")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 201.93 0)
 		(unit 1)
@@ -33974,6 +36731,127 @@
 			(project "ZU3_SOM"
 				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ade6b1e4-9a98-4ef6-8514-e0d88f8903d5")
+		(property "Reference" "R18"
+			(at 135.89 197.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 199.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0c543b3-2ae2-4bb6-9ba6-cc0c04d72433")
+		)
+		(pin "1"
+			(uuid "922386fc-115d-4b3a-8988-25a05018933e")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -34226,6 +37104,127 @@
 		)
 	)
 	(symbol
+		(lib_id "User:RES 22ohm 1% 1/16W 0402")
+		(at 152.4 228.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca70346d-2775-4d21-ba80-72960c66f2b3")
+		(property "Reference" "R20"
+			(at 147.574 227.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 152.4 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 230.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/40/info"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF220JTCE"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "40"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "119defa0-601f-411b-850f-f3a8b658e3d6")
+		)
+		(pin "2"
+			(uuid "3d146bde-1c89-4953-a559-9c4adc1e8b1d")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 196.85 0)
 		(unit 1)
@@ -34291,6 +37290,127 @@
 		)
 	)
 	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 140.97 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4330b36-aa89-4e2b-8ad7-1912dd0e5ed6")
+		(property "Reference" "R14"
+			(at 135.89 207.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 140.97 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 210.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96198710-45ad-42ce-b1e8-69e8813bafd4")
+		)
+		(pin "1"
+			(uuid "f5b7a69d-de54-4492-8412-99310ab27d75")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 220.98 0)
 		(unit 1)
@@ -34350,6 +37470,129 @@
 			(project "ZU3_SOM"
 				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 4.7Mohm 1% 1/16W 0402")
+		(at 148.59 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e612e101-7d42-4ba9-8c10-ad30a7346276")
+		(property "Reference" "R19"
+			(at 146.558 257.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4M7"
+			(at 148.59 257.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 146.812 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/527/info"
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-074M7L"
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" ""
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "527"
+			(at 148.59 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42cf42b4-415b-48c0-b1d9-ab540a2ee77f")
+		)
+		(pin "2"
+			(uuid "e440a6b1-80c1-45d9-b1ae-7e9f196adc85")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R19")
 					(unit 1)
 				)
 			)
