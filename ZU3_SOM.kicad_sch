@@ -81,6 +81,26 @@
 				(justify left top)
 			)
 		)
+		(pin "PS_SRST_B" input
+			(at 124.46 44.45 0)
+			(uuid "a4661d22-fa58-4b81-8898-eae1a546fb2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_PSBATT" input
+			(at 124.46 49.53 0)
+			(uuid "7a037270-7e1a-4bdc-858d-c388c3eedac8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ZU3_SOM"
 				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa"

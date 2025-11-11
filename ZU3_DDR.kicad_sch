@@ -25565,33 +25565,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part_Number" ""
-			(at 224.79 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Code" "C2842431"
-			(at 224.79 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_LibSource" "Extended"
-			(at 224.79 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Category" "ICs/LPDDR4"
 			(at 224.79 113.03 0)
 			(effects
@@ -26305,33 +26278,6 @@
 			)
 		)
 		(property "Manufacturer" "Micron"
-			(at 328.93 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 328.93 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Code" "C2842431"
-			(at 328.93 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_LibSource" "Extended"
 			(at 328.93 100.965 0)
 			(effects
 				(font
