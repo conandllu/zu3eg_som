@@ -457,7 +457,8 @@
       "User - Resistors",
       "USER_Lib",
       "User - Inductors",
-      "User - Diodes"
+      "User - Diodes",
+      "User - Transistors"
     ]
   },
   "meta": {

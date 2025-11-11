@@ -5,6 +5,350 @@
 	(uuid "bfc9af8d-d613-4957-bb17-708a06fb07a5")
 	(paper "A3")
 	(lib_symbols
+		(symbol "User:2N7002"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/532/info"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Transistors/NMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JSCJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "2N7002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "532"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "User:BEAD BLM15PX221SN1D"
 			(pin_numbers
 				(hide yes)
@@ -184,6 +528,462 @@
 					(at 0 -2.54 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "User:Blue 0402 NCD0402B1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BLUE"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/531/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Diodes/LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NATIONSTAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NCD0402B1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "LED0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "531"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED_SMD:LED_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Blue 0402 NCD0402B1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Blue 0402 NCD0402B1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "User:Green 0402 NCD0402G1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GREEN"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/530/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Diodes/LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NATIONSTAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NCD0402G1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "LED0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "530"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED_SMD:LED_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Green 0402 NCD0402G1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Green 0402 NCD0402G1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1657,6 +2457,175 @@
 				)
 			)
 			(symbol "RES 0ohm 1% 1/10W 0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "User:RES 100ohm 1% 1/16W 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.conandllu.cn/en/part/14/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors/SMD-RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402WGF1000TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES 100ohm 1% 1/16W 0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES 100ohm 1% 1/16W 0402_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -49497,7 +50466,7 @@
 	)
 	(text "Standard PL power-on delay time"
 		(exclude_from_sim no)
-		(at 35.306 217.424 0)
+		(at 274.066 226.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49508,7 +50477,7 @@
 	)
 	(text "Weak preconfiguration I/O \npull-up resistors enabled."
 		(exclude_from_sim no)
-		(at 42.418 208.534 0)
+		(at 281.178 217.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49517,191 +50486,223 @@
 		)
 		(uuid "bae733e1-0cb4-4ee3-9cc9-36695445b7b1")
 	)
+	(text "DONE = 0,LED OFF\nDONE = 1,LED ON"
+		(exclude_from_sim no)
+		(at 124.46 264.414 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "c4533e65-7ab8-404d-81b3-14e0c7159d59")
+	)
+	(text "INIT_B = 0,LED ON\nINIT_B = 1,LED OFF"
+		(exclude_from_sim no)
+		(at 141.224 247.904 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "e5b8cf66-4950-4019-9110-f2a832acd209")
+	)
 	(junction
-		(at 210.82 182.88)
+		(at 121.92 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "078c45e4-132e-4c3a-978f-7348e05cbe62")
 	)
 	(junction
-		(at 48.26 196.85)
+		(at 287.02 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "186e3d34-35aa-46ce-b3e4-9b00597cad5d")
 	)
 	(junction
-		(at 83.82 208.28)
+		(at 322.58 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a756721-b8e5-497f-9b9c-4e2f5561018a")
 	)
 	(junction
-		(at 212.09 236.22)
+		(at 123.19 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22fcafc7-3ddc-4c37-8919-a3b8109470ca")
 	)
 	(junction
-		(at 133.35 190.5)
+		(at 44.45 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c049e05-ec30-4f4e-845d-7682443dfea9")
 	)
 	(junction
-		(at 218.44 236.22)
+		(at 129.54 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ce8a1d8-218e-47d2-a1dc-019bbecdfda6")
 	)
 	(junction
-		(at 133.35 198.12)
+		(at 44.45 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4263710c-fc25-4cdd-8ae1-1b023508f10a")
 	)
 	(junction
-		(at 133.35 195.58)
+		(at 175.26 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58276ce7-27bc-4b4d-bd6c-a6d2d91d04a2")
+	)
+	(junction
+		(at 44.45 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6950d250-8c1a-4930-94e7-f2bf4dffcce5")
 	)
 	(junction
-		(at 81.28 194.31)
+		(at 320.04 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6df26b28-986e-4e3e-8adc-a7af3c34c627")
 	)
 	(junction
-		(at 204.47 251.46)
+		(at 95.25 254)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e2b5368-c87c-4f57-8255-620f95d5b73a")
 	)
 	(junction
-		(at 218.44 223.52)
+		(at 129.54 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "729deb0f-c245-428f-8f07-32ff20b124ab")
 	)
 	(junction
-		(at 81.28 189.23)
+		(at 320.04 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77a10165-ad55-4bf4-953c-aaa2f275d294")
 	)
 	(junction
-		(at 232.41 185.42)
+		(at 143.51 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84c27c2c-2ebb-4888-80cb-f7fc5f60400c")
 	)
 	(junction
-		(at 147.32 259.08)
+		(at 41.91 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e0b2b48-619f-4649-97b4-ee60ca67068d")
 	)
 	(junction
-		(at 83.82 205.74)
+		(at 322.58 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "916f5757-f9f0-4a1b-abb5-84de12c201ae")
 	)
 	(junction
-		(at 134.62 259.08)
+		(at 29.21 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9474b866-4f91-411e-acaa-8eb6943859fb")
 	)
 	(junction
-		(at 133.35 193.04)
+		(at 44.45 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a03ab3b-3a1e-44e3-a740-4f26e857024e")
 	)
 	(junction
-		(at 99.06 220.98)
+		(at 337.82 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9beb85e8-af5a-4e14-aecc-b75f78f379a9")
 	)
 	(junction
-		(at 210.82 180.34)
+		(at 121.92 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e5e119a-b1f2-4b4d-a641-90b3985d003b")
 	)
 	(junction
-		(at 133.35 203.2)
+		(at 44.45 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a11fc0f9-9363-4dec-887c-f20858ebcbe6")
 	)
 	(junction
-		(at 81.28 220.98)
+		(at 320.04 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1c1bcf4-00df-4dfd-95e2-d1b96b653ad3")
 	)
 	(junction
-		(at 210.82 185.42)
+		(at 121.92 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abfc4c60-933f-48d6-a887-d8406ff96bda")
 	)
 	(junction
-		(at 81.28 200.66)
+		(at 320.04 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad72ec90-2aa7-428d-b19a-716e0644f9f9")
 	)
 	(junction
-		(at 133.35 205.74)
+		(at 44.45 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c09273e3-571d-46fc-94cf-97055d8181aa")
 	)
 	(junction
-		(at 102.87 194.31)
+		(at 341.63 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c35a7811-7b76-44be-8639-d75cbd465633")
 	)
 	(junction
-		(at 147.32 248.92)
+		(at 41.91 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5b87e97-4f46-494d-b816-3ba9173196aa")
 	)
 	(junction
-		(at 210.82 190.5)
+		(at 121.92 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d314c7a6-a29b-4878-9578-7bf1328f63e6")
 	)
 	(junction
-		(at 227.33 223.52)
+		(at 138.43 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d40ca297-0291-472a-a3de-a1d0d79effd1")
 	)
 	(junction
-		(at 99.06 208.28)
+		(at 337.82 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8954d7-0475-4166-9ff1-709000560c55")
 	)
 	(no_connect
-		(at 78.74 213.36)
+		(at 317.5 222.25)
 		(uuid "b71bd748-40f4-4651-a961-864cd330f3de")
 	)
 	(no_connect
-		(at 78.74 215.9)
+		(at 317.5 224.79)
 		(uuid "bd5b04b1-daa3-4b05-a0c1-cbb8486b4944")
 	)
 	(wire
 		(pts
-			(xy 81.28 194.31) (xy 78.74 194.31)
+			(xy 320.04 203.2) (xy 317.5 203.2)
 		)
 		(stroke
 			(width 0)
@@ -49711,7 +50712,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 199.39) (xy 38.1 199.39)
+			(xy 133.35 199.39) (xy 140.97 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01770a5f-4ee1-42f7-8fbf-bc69d54e4adf")
+	)
+	(wire
+		(pts
+			(xy 274.32 208.28) (xy 276.86 208.28)
 		)
 		(stroke
 			(width 0)
@@ -49721,7 +50732,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 233.68) (xy 227.33 236.22)
+			(xy 138.43 236.22) (xy 138.43 238.76)
 		)
 		(stroke
 			(width 0)
@@ -49731,7 +50742,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 185.42) (xy 214.63 185.42)
+			(xy 121.92 187.96) (xy 125.73 187.96)
 		)
 		(stroke
 			(width 0)
@@ -49741,7 +50752,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 220.98) (xy 48.26 218.44)
+			(xy 287.02 229.87) (xy 287.02 227.33)
 		)
 		(stroke
 			(width 0)
@@ -49751,7 +50762,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 201.93) (xy 83.82 201.93)
+			(xy 327.66 210.82) (xy 322.58 210.82)
 		)
 		(stroke
 			(width 0)
@@ -49761,7 +50772,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 201.93) (xy 83.82 205.74)
+			(xy 133.35 214.63) (xy 140.97 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08535461-1d41-4de3-9421-795370ad9238")
+	)
+	(wire
+		(pts
+			(xy 322.58 210.82) (xy 322.58 214.63)
 		)
 		(stroke
 			(width 0)
@@ -49771,7 +50792,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 248.92) (xy 147.32 248.92)
+			(xy 39.37 251.46) (xy 41.91 251.46)
 		)
 		(stroke
 			(width 0)
@@ -49781,7 +50802,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 261.62) (xy 134.62 259.08)
+			(xy 29.21 264.16) (xy 29.21 261.62)
 		)
 		(stroke
 			(width 0)
@@ -49791,7 +50812,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 259.08) (xy 144.78 259.08)
+			(xy 41.91 261.62) (xy 39.37 261.62)
 		)
 		(stroke
 			(width 0)
@@ -49801,7 +50822,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 257.81) (xy 162.56 259.08)
+			(xy 57.15 260.35) (xy 57.15 261.62)
 		)
 		(stroke
 			(width 0)
@@ -49811,7 +50832,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 251.46) (xy 179.07 248.92)
+			(xy 142.24 269.24) (xy 144.78 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fafcc58-857e-4277-99dd-ad091be86c2c")
+	)
+	(wire
+		(pts
+			(xy 69.85 254) (xy 69.85 251.46)
 		)
 		(stroke
 			(width 0)
@@ -49821,7 +50852,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 190.5) (xy 161.29 190.5)
+			(xy 55.88 193.04) (xy 72.39 193.04)
 		)
 		(stroke
 			(width 0)
@@ -49831,7 +50862,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 189.23) (xy 102.87 189.23)
+			(xy 331.47 198.12) (xy 341.63 198.12)
 		)
 		(stroke
 			(width 0)
@@ -49841,7 +50872,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 193.04) (xy 137.16 193.04)
+			(xy 44.45 195.58) (xy 48.26 195.58)
 		)
 		(stroke
 			(width 0)
@@ -49851,7 +50882,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 210.82) (xy 161.29 210.82)
+			(xy 55.88 213.36) (xy 72.39 213.36)
 		)
 		(stroke
 			(width 0)
@@ -49861,7 +50892,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 208.28) (xy 99.06 208.28)
+			(xy 335.28 217.17) (xy 337.82 217.17)
 		)
 		(stroke
 			(width 0)
@@ -49871,7 +50902,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 236.22) (xy 212.09 236.22)
+			(xy 129.54 238.76) (xy 123.19 238.76)
 		)
 		(stroke
 			(width 0)
@@ -49881,7 +50912,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 180.34) (xy 210.82 180.34)
+			(xy 125.73 182.88) (xy 121.92 182.88)
 		)
 		(stroke
 			(width 0)
@@ -49891,7 +50922,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 180.34) (xy 210.82 182.88)
+			(xy 121.92 182.88) (xy 121.92 185.42)
 		)
 		(stroke
 			(width 0)
@@ -49901,7 +50932,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 190.5) (xy 210.82 190.5)
+			(xy 118.11 193.04) (xy 121.92 193.04)
 		)
 		(stroke
 			(width 0)
@@ -49911,7 +50942,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 251.46) (xy 219.71 251.46)
+			(xy 106.68 254) (xy 110.49 254)
 		)
 		(stroke
 			(width 0)
@@ -49921,7 +50952,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 196.85) (xy 48.26 196.85)
+			(xy 284.48 205.74) (xy 287.02 205.74)
 		)
 		(stroke
 			(width 0)
@@ -49931,7 +50962,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 205.74) (xy 99.06 205.74)
+			(xy 335.28 214.63) (xy 337.82 214.63)
 		)
 		(stroke
 			(width 0)
@@ -49941,7 +50972,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 198.12) (xy 133.35 203.2)
+			(xy 44.45 200.66) (xy 44.45 205.74)
 		)
 		(stroke
 			(width 0)
@@ -49951,7 +50982,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 228.6) (xy 148.59 228.6)
+			(xy 55.88 231.14) (xy 59.69 231.14)
 		)
 		(stroke
 			(width 0)
@@ -49961,7 +50992,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 208.28) (xy 161.29 208.28)
+			(xy 55.88 210.82) (xy 72.39 210.82)
 		)
 		(stroke
 			(width 0)
@@ -49971,7 +51002,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 193.04) (xy 161.29 193.04)
+			(xy 55.88 195.58) (xy 72.39 195.58)
 		)
 		(stroke
 			(width 0)
@@ -49981,7 +51012,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 256.54) (xy 147.32 259.08)
+			(xy 41.91 259.08) (xy 41.91 261.62)
 		)
 		(stroke
 			(width 0)
@@ -49991,7 +51022,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 248.92) (xy 137.16 248.92)
+			(xy 162.56 254) (xy 165.1 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239de24b-954a-4953-b08a-70877e02ce22")
+	)
+	(wire
+		(pts
+			(xy 29.21 251.46) (xy 31.75 251.46)
 		)
 		(stroke
 			(width 0)
@@ -50001,7 +51042,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 248.92) (xy 162.56 248.92)
+			(xy 41.91 251.46) (xy 57.15 251.46)
 		)
 		(stroke
 			(width 0)
@@ -50011,7 +51052,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 233.68) (xy 218.44 236.22)
+			(xy 129.54 236.22) (xy 129.54 238.76)
 		)
 		(stroke
 			(width 0)
@@ -50021,7 +51062,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 203.2) (xy 133.35 205.74)
+			(xy 44.45 205.74) (xy 44.45 208.28)
 		)
 		(stroke
 			(width 0)
@@ -50031,7 +51072,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 190.5) (xy 228.6 190.5)
+			(xy 133.35 193.04) (xy 139.7 193.04)
 		)
 		(stroke
 			(width 0)
@@ -50041,7 +51082,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 250.19) (xy 162.56 248.92)
+			(xy 57.15 252.73) (xy 57.15 251.46)
 		)
 		(stroke
 			(width 0)
@@ -50051,7 +51092,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 195.58) (xy 133.35 198.12)
+			(xy 44.45 198.12) (xy 44.45 200.66)
 		)
 		(stroke
 			(width 0)
@@ -50061,7 +51102,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 194.31) (xy 85.09 194.31)
+			(xy 320.04 203.2) (xy 323.85 203.2)
 		)
 		(stroke
 			(width 0)
@@ -50071,7 +51112,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 256.54) (xy 229.87 256.54)
+			(xy 104.14 259.08) (xy 120.65 259.08)
 		)
 		(stroke
 			(width 0)
@@ -50081,7 +51122,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 177.8) (xy 210.82 180.34)
+			(xy 152.4 274.32) (xy 152.4 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382c5c36-6d8b-4651-b6e4-7a0d93528b27")
+	)
+	(wire
+		(pts
+			(xy 121.92 180.34) (xy 121.92 182.88)
 		)
 		(stroke
 			(width 0)
@@ -50091,7 +51142,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 212.09) (xy 83.82 208.28)
+			(xy 322.58 220.98) (xy 322.58 217.17)
 		)
 		(stroke
 			(width 0)
@@ -50101,7 +51152,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 248.92) (xy 204.47 251.46)
+			(xy 95.25 251.46) (xy 95.25 254)
 		)
 		(stroke
 			(width 0)
@@ -50111,7 +51162,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 236.22) (xy 212.09 228.6)
+			(xy 123.19 238.76) (xy 123.19 231.14)
 		)
 		(stroke
 			(width 0)
@@ -50121,7 +51172,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 198.12) (xy 161.29 198.12)
+			(xy 55.88 200.66) (xy 72.39 200.66)
 		)
 		(stroke
 			(width 0)
@@ -50131,7 +51182,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 220.98) (xy 81.28 223.52)
+			(xy 320.04 229.87) (xy 320.04 232.41)
 		)
 		(stroke
 			(width 0)
@@ -50141,7 +51192,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 205.74) (xy 133.35 208.28)
+			(xy 44.45 208.28) (xy 44.45 210.82)
 		)
 		(stroke
 			(width 0)
@@ -50151,7 +51202,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 223.52) (xy 234.95 223.52)
+			(xy 138.43 226.06) (xy 146.05 226.06)
 		)
 		(stroke
 			(width 0)
@@ -50161,7 +51212,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 223.52) (xy 243.84 223.52)
+			(xy 151.13 226.06) (xy 154.94 226.06)
 		)
 		(stroke
 			(width 0)
@@ -50171,7 +51222,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 185.42) (xy 232.41 185.42)
+			(xy 133.35 187.96) (xy 143.51 187.96)
 		)
 		(stroke
 			(width 0)
@@ -50181,7 +51232,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 238.76) (xy 212.09 236.22)
+			(xy 123.19 241.3) (xy 123.19 238.76)
 		)
 		(stroke
 			(width 0)
@@ -50191,7 +51242,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 226.06) (xy 227.33 223.52)
+			(xy 138.43 228.6) (xy 138.43 226.06)
 		)
 		(stroke
 			(width 0)
@@ -50201,7 +51252,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 190.5) (xy 214.63 190.5)
+			(xy 121.92 193.04) (xy 125.73 193.04)
 		)
 		(stroke
 			(width 0)
@@ -50211,7 +51262,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 185.42) (xy 210.82 185.42)
+			(xy 118.11 187.96) (xy 121.92 187.96)
 		)
 		(stroke
 			(width 0)
@@ -50221,7 +51272,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 208.28) (xy 88.9 208.28)
+			(xy 322.58 217.17) (xy 327.66 217.17)
 		)
 		(stroke
 			(width 0)
@@ -50231,7 +51282,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 200.66) (xy 81.28 200.66)
+			(xy 124.46 269.24) (xy 134.62 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522eb236-0bef-4e48-adf6-e8bfaa342b09")
+	)
+	(wire
+		(pts
+			(xy 317.5 209.55) (xy 320.04 209.55)
 		)
 		(stroke
 			(width 0)
@@ -50241,7 +51302,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 251.46) (xy 179.07 251.46)
+			(xy 72.39 254) (xy 69.85 254)
 		)
 		(stroke
 			(width 0)
@@ -50251,7 +51312,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 208.28) (xy 83.82 208.28)
+			(xy 140.97 254) (xy 154.94 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58571e9b-6659-4bae-a6ba-5b873e706cf3")
+	)
+	(wire
+		(pts
+			(xy 317.5 217.17) (xy 322.58 217.17)
 		)
 		(stroke
 			(width 0)
@@ -50261,7 +51332,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 218.44) (xy 50.8 218.44)
+			(xy 175.26 261.62) (xy 175.26 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59338a43-a499-4230-9677-cbeb839976cc")
+	)
+	(wire
+		(pts
+			(xy 287.02 227.33) (xy 289.56 227.33)
 		)
 		(stroke
 			(width 0)
@@ -50271,7 +51352,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 259.08) (xy 179.07 256.54)
+			(xy 69.85 261.62) (xy 69.85 259.08)
 		)
 		(stroke
 			(width 0)
@@ -50281,7 +51362,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 205.74) (xy 99.06 208.28)
+			(xy 337.82 214.63) (xy 337.82 217.17)
 		)
 		(stroke
 			(width 0)
@@ -50291,7 +51372,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 196.85) (xy 50.8 196.85)
+			(xy 287.02 205.74) (xy 289.56 205.74)
 		)
 		(stroke
 			(width 0)
@@ -50301,7 +51382,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 189.23) (xy 85.09 189.23)
+			(xy 320.04 198.12) (xy 323.85 198.12)
 		)
 		(stroke
 			(width 0)
@@ -50311,7 +51392,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 194.31) (xy 92.71 194.31)
+			(xy 341.63 203.2) (xy 331.47 203.2)
 		)
 		(stroke
 			(width 0)
@@ -50321,7 +51402,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 185.42) (xy 234.95 185.42)
+			(xy 143.51 187.96) (xy 146.05 187.96)
 		)
 		(stroke
 			(width 0)
@@ -50331,7 +51412,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 259.08) (xy 162.56 259.08)
+			(xy 41.91 261.62) (xy 57.15 261.62)
 		)
 		(stroke
 			(width 0)
@@ -50341,7 +51422,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 203.2) (xy 161.29 203.2)
+			(xy 55.88 205.74) (xy 72.39 205.74)
 		)
 		(stroke
 			(width 0)
@@ -50351,7 +51432,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 248.92) (xy 147.32 251.46)
+			(xy 41.91 251.46) (xy 41.91 254)
 		)
 		(stroke
 			(width 0)
@@ -50361,7 +51442,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 195.58) (xy 161.29 195.58)
+			(xy 55.88 198.12) (xy 72.39 198.12)
 		)
 		(stroke
 			(width 0)
@@ -50371,7 +51452,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 189.23) (xy 81.28 194.31)
+			(xy 152.4 264.16) (xy 152.4 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecad818-5b8c-4ea2-ab25-c0d9eae36883")
+	)
+	(wire
+		(pts
+			(xy 320.04 198.12) (xy 320.04 203.2)
 		)
 		(stroke
 			(width 0)
@@ -50381,7 +51472,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 205.74) (xy 161.29 205.74)
+			(xy 175.26 251.46) (xy 175.26 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3355ee-6b99-45a7-8451-a4b7eb232c0e")
+	)
+	(wire
+		(pts
+			(xy 55.88 208.28) (xy 72.39 208.28)
 		)
 		(stroke
 			(width 0)
@@ -50391,7 +51492,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 259.08) (xy 137.16 259.08)
+			(xy 29.21 261.62) (xy 31.75 261.62)
 		)
 		(stroke
 			(width 0)
@@ -50401,7 +51502,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 198.12) (xy 137.16 198.12)
+			(xy 44.45 200.66) (xy 48.26 200.66)
 		)
 		(stroke
 			(width 0)
@@ -50411,7 +51512,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 194.31) (xy 35.56 196.85)
+			(xy 118.11 207.01) (xy 132.08 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c6abb9-9b7c-4396-a1ec-5e0f8d1eba8b")
+	)
+	(wire
+		(pts
+			(xy 274.32 203.2) (xy 274.32 205.74)
 		)
 		(stroke
 			(width 0)
@@ -50421,7 +51532,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 220.98) (xy 92.71 220.98)
+			(xy 337.82 229.87) (xy 331.47 229.87)
 		)
 		(stroke
 			(width 0)
@@ -50431,7 +51542,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 256.54) (xy 205.74 256.54)
+			(xy 139.7 210.82) (xy 142.24 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cf795e-8734-4012-ba4e-1413e637239a")
+	)
+	(wire
+		(pts
+			(xy 92.71 259.08) (xy 96.52 259.08)
 		)
 		(stroke
 			(width 0)
@@ -50441,7 +51562,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 220.98) (xy 87.63 220.98)
+			(xy 320.04 229.87) (xy 326.39 229.87)
 		)
 		(stroke
 			(width 0)
@@ -50451,7 +51572,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 223.52) (xy 161.29 223.52)
+			(xy 55.88 226.06) (xy 72.39 226.06)
 		)
 		(stroke
 			(width 0)
@@ -50461,7 +51582,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 186.69) (xy 81.28 189.23)
+			(xy 320.04 195.58) (xy 320.04 198.12)
 		)
 		(stroke
 			(width 0)
@@ -50471,7 +51592,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 236.22) (xy 218.44 236.22)
+			(xy 138.43 238.76) (xy 129.54 238.76)
 		)
 		(stroke
 			(width 0)
@@ -50481,7 +51602,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 213.36) (xy 133.35 210.82)
+			(xy 44.45 215.9) (xy 44.45 213.36)
 		)
 		(stroke
 			(width 0)
@@ -50491,7 +51612,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 200.66) (xy 81.28 220.98)
+			(xy 320.04 209.55) (xy 320.04 229.87)
 		)
 		(stroke
 			(width 0)
@@ -50501,7 +51622,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 212.09) (xy 83.82 212.09)
+			(xy 327.66 220.98) (xy 322.58 220.98)
 		)
 		(stroke
 			(width 0)
@@ -50511,7 +51632,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 196.85) (xy 102.87 194.31)
+			(xy 341.63 205.74) (xy 341.63 203.2)
 		)
 		(stroke
 			(width 0)
@@ -50521,7 +51642,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 198.12) (xy 81.28 198.12)
+			(xy 317.5 207.01) (xy 320.04 207.01)
 		)
 		(stroke
 			(width 0)
@@ -50531,7 +51652,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 190.5) (xy 137.16 190.5)
+			(xy 44.45 193.04) (xy 48.26 193.04)
 		)
 		(stroke
 			(width 0)
@@ -50541,7 +51662,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 205.74) (xy 88.9 205.74)
+			(xy 322.58 214.63) (xy 327.66 214.63)
 		)
 		(stroke
 			(width 0)
@@ -50551,7 +51672,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 199.39) (xy 48.26 196.85)
+			(xy 118.11 203.2) (xy 125.73 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5e8632-767e-400d-81ba-6d5b326ddbf8")
+	)
+	(wire
+		(pts
+			(xy 133.35 218.44) (xy 139.7 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931f790b-af0d-4884-a414-579999d87fd7")
+	)
+	(wire
+		(pts
+			(xy 287.02 208.28) (xy 287.02 205.74)
 		)
 		(stroke
 			(width 0)
@@ -50561,7 +51702,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 223.52) (xy 227.33 223.52)
+			(xy 129.54 226.06) (xy 138.43 226.06)
 		)
 		(stroke
 			(width 0)
@@ -50571,7 +51712,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 251.46) (xy 201.93 251.46)
+			(xy 95.25 254) (xy 92.71 254)
 		)
 		(stroke
 			(width 0)
@@ -50581,7 +51722,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 210.82) (xy 137.16 210.82)
+			(xy 44.45 213.36) (xy 48.26 213.36)
 		)
 		(stroke
 			(width 0)
@@ -50591,7 +51732,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 190.5) (xy 133.35 193.04)
+			(xy 44.45 193.04) (xy 44.45 195.58)
 		)
 		(stroke
 			(width 0)
@@ -50601,7 +51742,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 193.04) (xy 210.82 190.5)
+			(xy 121.92 195.58) (xy 121.92 193.04)
 		)
 		(stroke
 			(width 0)
@@ -50611,7 +51752,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 182.88) (xy 210.82 185.42)
+			(xy 121.92 185.42) (xy 121.92 187.96)
 		)
 		(stroke
 			(width 0)
@@ -50621,7 +51762,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 182.88) (xy 210.82 182.88)
+			(xy 118.11 185.42) (xy 121.92 185.42)
 		)
 		(stroke
 			(width 0)
@@ -50631,7 +51772,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 203.2) (xy 137.16 203.2)
+			(xy 44.45 205.74) (xy 48.26 205.74)
 		)
 		(stroke
 			(width 0)
@@ -50641,7 +51782,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 205.74) (xy 137.16 205.74)
+			(xy 139.7 207.01) (xy 142.24 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b275c196-e2af-42e9-a4d2-7efaf282ca16")
+	)
+	(wire
+		(pts
+			(xy 44.45 208.28) (xy 48.26 208.28)
 		)
 		(stroke
 			(width 0)
@@ -50651,7 +51802,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 218.44) (xy 161.29 218.44)
+			(xy 55.88 220.98) (xy 72.39 220.98)
 		)
 		(stroke
 			(width 0)
@@ -50661,7 +51812,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 228.6) (xy 207.01 228.6)
+			(xy 123.19 231.14) (xy 118.11 231.14)
 		)
 		(stroke
 			(width 0)
@@ -50671,7 +51822,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 196.85) (xy 38.1 196.85)
+			(xy 274.32 205.74) (xy 276.86 205.74)
 		)
 		(stroke
 			(width 0)
@@ -50681,7 +51832,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 179.07) (xy 81.28 181.61)
+			(xy 320.04 187.96) (xy 320.04 190.5)
 		)
 		(stroke
 			(width 0)
@@ -50691,7 +51842,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 187.96) (xy 133.35 190.5)
+			(xy 44.45 190.5) (xy 44.45 193.04)
 		)
 		(stroke
 			(width 0)
@@ -50701,7 +51852,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 251.46) (xy 208.28 251.46)
+			(xy 95.25 254) (xy 99.06 254)
 		)
 		(stroke
 			(width 0)
@@ -50711,7 +51862,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 201.93) (xy 35.56 199.39)
+			(xy 118.11 199.39) (xy 125.73 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b216e7-42aa-464a-b096-7e27f944879f")
+	)
+	(wire
+		(pts
+			(xy 274.32 210.82) (xy 274.32 208.28)
 		)
 		(stroke
 			(width 0)
@@ -50721,7 +51882,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 228.6) (xy 161.29 228.6)
+			(xy 67.31 231.14) (xy 72.39 231.14)
 		)
 		(stroke
 			(width 0)
@@ -50731,7 +51892,17 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 226.06) (xy 218.44 223.52)
+			(xy 118.11 214.63) (xy 125.73 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba695e0-a0c6-4734-ac5a-14588ae0d329")
+	)
+	(wire
+		(pts
+			(xy 129.54 228.6) (xy 129.54 226.06)
 		)
 		(stroke
 			(width 0)
@@ -50741,7 +51912,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 199.39) (xy 48.26 199.39)
+			(xy 284.48 208.28) (xy 287.02 208.28)
 		)
 		(stroke
 			(width 0)
@@ -50751,7 +51922,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 195.58) (xy 137.16 195.58)
+			(xy 44.45 198.12) (xy 48.26 198.12)
 		)
 		(stroke
 			(width 0)
@@ -50761,7 +51932,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 205.74) (xy 83.82 205.74)
+			(xy 317.5 214.63) (xy 322.58 214.63)
 		)
 		(stroke
 			(width 0)
@@ -50771,7 +51942,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 198.12) (xy 81.28 200.66)
+			(xy 320.04 207.01) (xy 320.04 209.55)
 		)
 		(stroke
 			(width 0)
@@ -50781,7 +51952,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 220.98) (xy 78.74 220.98)
+			(xy 320.04 229.87) (xy 317.5 229.87)
 		)
 		(stroke
 			(width 0)
@@ -50791,7 +51962,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 215.9) (xy 161.29 215.9)
+			(xy 55.88 218.44) (xy 72.39 218.44)
 		)
 		(stroke
 			(width 0)
@@ -50801,7 +51972,37 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 223.52) (xy 99.06 220.98)
+			(xy 175.26 254) (xy 172.72 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34fc036-6752-458a-b234-ac1c3b4b42fd")
+	)
+	(wire
+		(pts
+			(xy 152.4 261.62) (xy 154.94 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e480816c-08ce-49e3-90b0-0266dab3cc8a")
+	)
+	(wire
+		(pts
+			(xy 118.11 210.82) (xy 132.08 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ebf0e5-139f-48f2-bbb6-8d7fc27586e9")
+	)
+	(wire
+		(pts
+			(xy 337.82 232.41) (xy 337.82 229.87)
 		)
 		(stroke
 			(width 0)
@@ -50811,7 +52012,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 259.08) (xy 134.62 248.92)
+			(xy 29.21 261.62) (xy 29.21 251.46)
 		)
 		(stroke
 			(width 0)
@@ -50821,7 +52022,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 256.54) (xy 181.61 256.54)
+			(xy 69.85 259.08) (xy 72.39 259.08)
 		)
 		(stroke
 			(width 0)
@@ -50831,7 +52032,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 189.23) (xy 102.87 194.31)
+			(xy 341.63 198.12) (xy 341.63 203.2)
 		)
 		(stroke
 			(width 0)
@@ -50841,7 +52042,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 180.34) (xy 232.41 180.34)
+			(xy 133.35 182.88) (xy 143.51 182.88)
 		)
 		(stroke
 			(width 0)
@@ -50851,7 +52052,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 180.34) (xy 232.41 185.42)
+			(xy 162.56 261.62) (xy 165.1 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84fa2c5-f229-424c-b3a8-39e3af9e7924")
+	)
+	(wire
+		(pts
+			(xy 143.51 182.88) (xy 143.51 187.96)
 		)
 		(stroke
 			(width 0)
@@ -50861,7 +52072,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 193.04) (xy 210.82 193.04)
+			(xy 140.97 195.58) (xy 121.92 195.58)
 		)
 		(stroke
 			(width 0)
@@ -50871,7 +52082,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 223.52) (xy 207.01 223.52)
+			(xy 129.54 226.06) (xy 118.11 226.06)
 		)
 		(stroke
 			(width 0)
@@ -50881,7 +52092,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 208.28) (xy 137.16 208.28)
+			(xy 44.45 210.82) (xy 48.26 210.82)
 		)
 		(stroke
 			(width 0)
@@ -50891,7 +52102,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 193.04) (xy 133.35 195.58)
+			(xy 44.45 195.58) (xy 44.45 198.12)
 		)
 		(stroke
 			(width 0)
@@ -50901,7 +52112,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 208.28) (xy 99.06 220.98)
+			(xy 337.82 217.17) (xy 337.82 229.87)
 		)
 		(stroke
 			(width 0)
@@ -50909,8 +52120,38 @@
 		)
 		(uuid "fcfc4c5e-d0e7-4d00-a36d-17f00832f225")
 	)
+	(wire
+		(pts
+			(xy 133.35 203.2) (xy 140.97 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda24a55-aac1-4bf1-98ae-0918ddb667c2")
+	)
+	(wire
+		(pts
+			(xy 172.72 261.62) (xy 175.26 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff902ea6-e033-4bd5-8294-0febf412da0f")
+	)
+	(wire
+		(pts
+			(xy 118.11 218.44) (xy 125.73 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9661da-4097-450b-9a42-01f25d9da0fe")
+	)
 	(label "PS_33M3_DI"
-		(at 229.87 256.54 180)
+		(at 120.65 259.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50920,7 +52161,7 @@
 		(uuid "0e4c9a40-dedc-4d13-bdb6-c9b64a4392ec")
 	)
 	(label "PS_JTAG_TDO"
-		(at 160.02 195.58 180)
+		(at 71.12 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50929,8 +52170,18 @@
 		)
 		(uuid "2732bbee-afba-4a3a-aad5-711d1e8ef6a4")
 	)
+	(label "PS_DONE"
+		(at 119.38 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41be0da8-b68a-4c5e-92ae-d348e2f08243")
+	)
 	(label "PS_MODE3"
-		(at 157.48 210.82 180)
+		(at 68.58 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50940,7 +52191,7 @@
 		(uuid "53723928-59d9-4873-ae03-dcab4e9ccd94")
 	)
 	(label "PS_MODE0"
-		(at 157.48 203.2 180)
+		(at 68.58 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50950,7 +52201,7 @@
 		(uuid "7bf3b346-93b1-4209-bcbc-e37f0218e524")
 	)
 	(label "PS_32K_DI"
-		(at 160.02 248.92 180)
+		(at 54.61 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50960,7 +52211,7 @@
 		(uuid "80b99ed7-320f-49c0-a3f7-b462108c6b11")
 	)
 	(label "PS_MODE1"
-		(at 157.48 205.74 180)
+		(at 68.58 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50970,7 +52221,7 @@
 		(uuid "93b2f050-e341-4f50-b456-1e2fdcdae075")
 	)
 	(label "PS_MODE2"
-		(at 157.48 208.28 180)
+		(at 68.58 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50980,7 +52231,7 @@
 		(uuid "94173b88-3754-4b66-8912-5f895b6e21f6")
 	)
 	(label "PS_JTAG_TDI"
-		(at 160.02 193.04 180)
+		(at 71.12 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50990,7 +52241,7 @@
 		(uuid "9f6b169c-bdd1-4253-a0cf-f2c4ed93cfab")
 	)
 	(label "PS_33M3_DI"
-		(at 157.48 223.52 180)
+		(at 68.58 226.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50999,8 +52250,18 @@
 		)
 		(uuid "a9221256-0662-471a-b642-4ed5bc0e0d9a")
 	)
+	(label "PS_INIT_B"
+		(at 119.38 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2f0edf3-7b6c-4642-8625-2968f9869122")
+	)
 	(label "PS_32K_DO"
-		(at 157.48 218.44 180)
+		(at 68.58 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51010,7 +52271,7 @@
 		(uuid "b6dba72c-d000-43f1-95aa-c210ab1dba6a")
 	)
 	(label "PS_JTAG_TCK"
-		(at 160.02 190.5 180)
+		(at 71.12 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51019,8 +52280,28 @@
 		)
 		(uuid "ba74eb9a-cc10-4f59-b7c3-743e7ea578e9")
 	)
+	(label "PS_INIT_B"
+		(at 140.97 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcb56cf3-8cd4-476e-873b-154ab5b4d121")
+	)
+	(label "PS_DONE"
+		(at 124.46 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd9e8d3f-47cd-43da-8d58-04d896c90395")
+	)
 	(label "PS_JTAG_TMS"
-		(at 160.02 198.12 180)
+		(at 71.12 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51030,7 +52311,7 @@
 		(uuid "e21fdb53-8e6d-4ff1-9d1b-c6997bcf2f0a")
 	)
 	(label "PS_32K_DI"
-		(at 157.48 215.9 180)
+		(at 68.58 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51040,7 +52321,7 @@
 		(uuid "e419b496-1d7f-4a3f-8e2b-677ad2a2f1b3")
 	)
 	(label "PS_32K_DO"
-		(at 160.02 259.08 180)
+		(at 54.61 261.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51051,7 +52332,7 @@
 	)
 	(hierarchical_label "VCC_PSBATT"
 		(shape input)
-		(at 229.87 193.04 0)
+		(at 140.97 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51062,7 +52343,7 @@
 	)
 	(hierarchical_label "PS_SRST_B"
 		(shape input)
-		(at 144.78 228.6 180)
+		(at 55.88 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51071,9 +52352,42 @@
 		)
 		(uuid "5060e637-6be4-4e1b-86ee-6c010dc09a30")
 	)
+	(hierarchical_label "PS_ERR_STATUS"
+		(shape output)
+		(at 140.97 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf0f16a8-95be-4088-b0ef-b4e085443a4f")
+	)
+	(hierarchical_label "PS_POR_B"
+		(shape input)
+		(at 140.97 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3478f78-5230-4fd3-8d5e-29112929012a")
+	)
+	(hierarchical_label "PS_ERR_OUT"
+		(shape output)
+		(at 140.97 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0ee7754-c46f-4098-b23e-6ba70b1848f5")
+	)
 	(symbol
 		(lib_id "User:TP_D1")
-		(at 88.9 212.09 270)
+		(at 327.66 220.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -51081,7 +52395,7 @@
 		(dnp no)
 		(uuid "057c9f81-4641-405f-a800-e5e84a06c002")
 		(property "Reference" "TP2"
-			(at 87.376 210.566 90)
+			(at 326.136 219.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51090,7 +52404,7 @@
 			)
 		)
 		(property "Value" "TP_D1"
-			(at 93.218 212.09 90)
+			(at 331.978 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51099,7 +52413,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 88.9 217.17 0)
+			(at 327.66 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51108,7 +52422,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/524/info"
-			(at 88.9 217.17 0)
+			(at 327.66 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51117,7 +52431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 212.09 0)
+			(at 327.66 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51126,7 +52440,7 @@
 			)
 		)
 		(property "Category" "Connectors/TP"
-			(at 88.9 212.09 0)
+			(at 327.66 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51135,7 +52449,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 88.9 212.09 0)
+			(at 327.66 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51144,7 +52458,7 @@
 			)
 		)
 		(property "Part-DB ID" "524"
-			(at 88.9 212.09 0)
+			(at 327.66 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51166,7 +52480,7 @@
 	)
 	(symbol
 		(lib_id "User:MLCC 100nF 16V ±10% X7R 0402")
-		(at 88.9 189.23 90)
+		(at 327.66 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51174,7 +52488,7 @@
 		(dnp no)
 		(uuid "0626594a-3efb-4539-adb2-4b66390c2eef")
 		(property "Reference" "C43"
-			(at 84.582 188.214 90)
+			(at 323.342 197.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51182,7 +52496,7 @@
 			)
 		)
 		(property "Value" "100nF/16V"
-			(at 96.774 188.214 90)
+			(at 335.534 197.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51190,7 +52504,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 92.71 188.2648 0)
+			(at 331.47 197.1548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51199,7 +52513,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/462/info"
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51208,7 +52522,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51217,7 +52531,7 @@
 			)
 		)
 		(property "Category" "Capacitors/MLCC"
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51226,7 +52540,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG"
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51235,7 +52549,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51244,7 +52558,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51253,7 +52567,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51262,7 +52576,7 @@
 			)
 		)
 		(property "Part-DB ID" "462"
-			(at 88.9 189.23 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51286,16 +52600,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 212.09 238.76 0)
+		(lib_id "power:+1V0")
+		(at 139.7 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "07f61330-4a4b-44ed-ad8c-17f2df4e41b8")
-		(property "Reference" "#PWR043"
-			(at 212.09 245.11 0)
+		(uuid "069f4743-a6b6-4702-957d-8228b53346f4")
+		(property "Reference" "#PWR045"
+			(at 135.89 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51303,8 +52617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ADC"
-			(at 212.09 242.57 0)
+		(property "Value" "VCC_IO_3V3"
+			(at 148.336 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51312,7 +52626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 238.76 0)
+			(at 139.7 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51321,7 +52635,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 238.76 0)
+			(at 139.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 139.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed328111-2682-4417-aef8-2d0b9fdc0deb")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07f61330-4a4b-44ed-ad8c-17f2df4e41b8")
+		(property "Reference" "#PWR043"
+			(at 123.19 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ADC"
+			(at 123.19 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51330,7 +52709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 238.76 0)
+			(at 123.19 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51352,7 +52731,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 81.28 179.07 0)
+		(at 320.04 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51360,7 +52739,7 @@
 		(dnp no)
 		(uuid "13adaab5-8620-4b9f-98c1-f6b87aebcdd1")
 		(property "Reference" "#PWR031"
-			(at 81.28 182.88 0)
+			(at 320.04 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51369,7 +52748,7 @@
 			)
 		)
 		(property "Value" "VCC_PS_AUX"
-			(at 81.28 175.768 0)
+			(at 320.04 184.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51377,7 +52756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 179.07 0)
+			(at 320.04 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51386,7 +52765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 179.07 0)
+			(at 320.04 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51395,7 +52774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 81.28 179.07 0)
+			(at 320.04 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51417,7 +52796,7 @@
 	)
 	(symbol
 		(lib_id "User:MLCC 22pF 50V ±5% C0G 0402")
-		(at 140.97 259.08 270)
+		(at 35.56 261.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51425,7 +52804,7 @@
 		(dnp no)
 		(uuid "14446dee-1997-486a-a10b-ccbef5b4c027")
 		(property "Reference" "C46"
-			(at 138.938 255.524 90)
+			(at 33.528 258.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51434,7 +52813,7 @@
 			)
 		)
 		(property "Value" "22pF/50V"
-			(at 135.89 262.89 90)
+			(at 30.48 265.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51443,7 +52822,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 137.16 260.0452 0)
+			(at 31.75 262.5852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51452,7 +52831,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/464/info"
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51461,7 +52840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51470,7 +52849,7 @@
 			)
 		)
 		(property "Category" "Capacitors/MLCC"
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51479,7 +52858,7 @@
 			)
 		)
 		(property "Manufacturer" "FH"
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51488,7 +52867,7 @@
 			)
 		)
 		(property "MPN" "0402CG220J500NT"
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51497,7 +52876,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51506,7 +52885,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51515,7 +52894,7 @@
 			)
 		)
 		(property "Part-DB ID" "464"
-			(at 140.97 259.08 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51540,7 +52919,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 251.46 90)
+		(at 110.49 254 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51548,7 +52927,7 @@
 		(dnp no)
 		(uuid "17217e39-4e85-4afd-a6fd-8c70e5b1cd82")
 		(property "Reference" "#PWR039"
-			(at 226.06 251.46 0)
+			(at 116.84 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51557,7 +52936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.536 251.46 90)
+			(at 115.316 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51565,7 +52944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 251.46 0)
+			(at 110.49 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51574,7 +52953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 251.46 0)
+			(at 110.49 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51583,7 +52962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 251.46 0)
+			(at 110.49 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51605,7 +52984,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 205.74 90)
+		(at 52.07 208.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51613,7 +52992,7 @@
 		(dnp no)
 		(uuid "1e0d10a2-9753-41eb-9c11-634263dd4a38")
 		(property "Reference" "R13"
-			(at 135.89 204.724 90)
+			(at 46.99 207.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51621,7 +53000,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 140.97 205.74 90)
+			(at 52.07 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51629,7 +53008,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 207.518 90)
+			(at 52.07 210.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51638,7 +53017,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51647,7 +53026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51656,7 +53035,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51665,7 +53044,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51674,7 +53053,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51683,7 +53062,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51692,7 +53071,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51701,7 +53080,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 205.74 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51726,7 +53105,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 35.56 194.31 0)
+		(at 274.32 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51734,7 +53113,7 @@
 		(dnp no)
 		(uuid "24a83b3d-7154-406b-850a-06cf2d66d17a")
 		(property "Reference" "#PWR028"
-			(at 35.56 198.12 0)
+			(at 274.32 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51743,7 +53122,7 @@
 			)
 		)
 		(property "Value" "VCC_PS_AUX"
-			(at 35.56 191.008 0)
+			(at 274.32 199.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51751,7 +53130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 194.31 0)
+			(at 274.32 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51760,7 +53139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 194.31 0)
+			(at 274.32 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51769,7 +53148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 35.56 194.31 0)
+			(at 274.32 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51791,7 +53170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 223.52 0)
+		(at 320.04 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51799,7 +53178,7 @@
 		(dnp no)
 		(uuid "26aa60f4-dbf2-4201-b44f-2f98e97fd944")
 		(property "Reference" "#PWR029"
-			(at 81.28 229.87 0)
+			(at 320.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51808,7 +53187,7 @@
 			)
 		)
 		(property "Value" "GND_ADC"
-			(at 81.28 227.33 0)
+			(at 320.04 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51816,7 +53195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 223.52 0)
+			(at 320.04 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51825,7 +53204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 223.52 0)
+			(at 320.04 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51834,7 +53213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 223.52 0)
+			(at 320.04 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51856,7 +53235,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 228.6 190.5 270)
+		(at 139.7 193.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51864,7 +53243,7 @@
 		(dnp no)
 		(uuid "26de5b11-f560-4dc2-8561-a7ef498079ec")
 		(property "Reference" "#PWR042"
-			(at 224.79 190.5 0)
+			(at 135.89 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51873,7 +53252,7 @@
 			)
 		)
 		(property "Value" "VCC_PS_AUX"
-			(at 237.49 190.5 90)
+			(at 148.59 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51881,7 +53260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 190.5 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51890,7 +53269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 190.5 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51899,7 +53278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 228.6 190.5 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51920,34 +53299,32 @@
 		)
 	)
 	(symbol
-		(lib_name "XCZU3EGSFVA625_3")
-		(lib_id "User:XCZU3EGSFVA625")
-		(at 78.74 81.28 0)
-		(unit 6)
+		(lib_id "User:RES 22ohm 1% 1/16W 0402")
+		(at 129.54 214.63 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3283f8aa-2c90-4817-8a7b-8eb72c68b2fd")
-		(property "Reference" "U1"
-			(at 78.74 48.26 0)
+		(uuid "2affe444-0481-4e10-a949-e47ac0b10bde")
+		(property "Reference" "R26"
+			(at 124.714 213.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ZU3EGSFVA625"
-			(at 78.74 50.8 0)
+		(property "Value" "22R"
+			(at 129.54 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 76.2 58.42 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 216.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51955,8 +53332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 76.2 58.42 0)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/40/info"
+			(at 129.54 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51965,7 +53342,130 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 58.42 0)
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF220JTCE"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "40"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d636b278-da9d-4556-8dc4-8983ad931162")
+		)
+		(pin "2"
+			(uuid "78cfc856-8b7e-4346-9dd4-5d05b2f6f447")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XCZU3EGSFVA625_3")
+		(lib_id "User:XCZU3EGSFVA625")
+		(at 96.52 60.96 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3283f8aa-2c90-4817-8a7b-8eb72c68b2fd")
+		(property "Reference" "U1"
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZU3EGSFVA625"
+			(at 96.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51974,7 +53474,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 78.74 81.28 0)
+			(at 96.52 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51983,7 +53483,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 78.74 81.28 0)
+			(at 96.52 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51992,7 +53492,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 78.74 81.28 0)
+			(at 96.52 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52001,7 +53501,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 78.74 81.28 0)
+			(at 96.52 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52010,7 +53510,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 78.74 81.28 0)
+			(at 96.52 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53904,7 +55404,7 @@
 	)
 	(symbol
 		(lib_id "User:BEAD BLM15PX221SN1D")
-		(at 90.17 220.98 270)
+		(at 328.93 229.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53912,7 +55412,7 @@
 		(dnp no)
 		(uuid "3913156c-43ec-46c6-bceb-7b906a80c6c9")
 		(property "Reference" "BD2"
-			(at 88.392 219.964 90)
+			(at 327.152 228.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53921,7 +55421,7 @@
 			)
 		)
 		(property "Value" "220Ω@100MHz"
-			(at 97.536 223.774 90)
+			(at 336.296 232.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53930,7 +55430,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 90.17 219.202 90)
+			(at 328.93 228.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53939,7 +55439,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/522/info"
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53948,7 +55448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53957,7 +55457,7 @@
 			)
 		)
 		(property "Category" "Inductors/BEAD"
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53966,7 +55466,7 @@
 			)
 		)
 		(property "Manufacturer" "MURATA"
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53975,7 +55475,7 @@
 			)
 		)
 		(property "MPN" "BLM15PX221SN1D"
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53984,7 +55484,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53993,7 +55493,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "L0402"
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54002,7 +55502,7 @@
 			)
 		)
 		(property "Part-DB ID" "522"
-			(at 90.17 220.98 0)
+			(at 328.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54027,7 +55527,7 @@
 	)
 	(symbol
 		(lib_id "User:NX3215SA-32.768KHZ-EXS00A-MU00466")
-		(at 147.32 254 270)
+		(at 41.91 256.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54035,7 +55535,7 @@
 		(dnp no)
 		(uuid "3c6e0225-57a6-4d66-8b0b-5ea2464e1ca8")
 		(property "Reference" "Y1"
-			(at 149.352 251.968 90)
+			(at 43.942 254.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54043,7 +55543,7 @@
 			)
 		)
 		(property "Value" "32.768KHz"
-			(at 154.178 254 90)
+			(at 48.768 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54051,7 +55551,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54060,7 +55560,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/526/info"
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54069,7 +55569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54078,7 +55578,7 @@
 			)
 		)
 		(property "Category" "ICs/XTAL"
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54087,7 +55587,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54096,7 +55596,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "XTAL_3215_2P"
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54105,7 +55605,7 @@
 			)
 		)
 		(property "Part-DB ID" "526"
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54114,7 +55614,7 @@
 			)
 		)
 		(property "Manufacturer" "NDK"
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54123,7 +55623,7 @@
 			)
 		)
 		(property "MPN" "NX3215SA-32.768KHZ-EXS00A-MU00466"
-			(at 147.32 254 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54147,16 +55647,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 213.36 0)
+		(lib_id "power:+1V0")
+		(at 175.26 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "419150f3-513e-4f59-973e-9425e644f400")
-		(property "Reference" "#PWR033"
-			(at 133.35 219.71 0)
+		(uuid "4138449b-f3de-4262-96d6-1dd77cf337d1")
+		(property "Reference" "#PWR048"
+			(at 175.26 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54164,8 +55664,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 133.35 217.17 0)
+		(property "Value" "VCC_IO_3V3"
+			(at 175.26 247.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54173,7 +55673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 213.36 0)
+			(at 175.26 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54182,7 +55682,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 213.36 0)
+			(at 175.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 175.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81cb7284-1656-4063-9dd1-dda536a5bb64")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "419150f3-513e-4f59-973e-9425e644f400")
+		(property "Reference" "#PWR033"
+			(at 44.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54191,7 +55756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 213.36 0)
+			(at 44.45 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54214,7 +55779,7 @@
 	(symbol
 		(lib_name "XCZU3EGSFVA625_1")
 		(lib_id "User:XCZU3EGSFVA625")
-		(at 303.53 203.2 0)
+		(at 303.53 133.35 0)
 		(unit 11)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54223,7 +55788,7 @@
 		(fields_autoplaced yes)
 		(uuid "41ca5109-ba2e-40ee-ac5d-836b00f2a7d1")
 		(property "Reference" "U1"
-			(at 303.53 171.45 0)
+			(at 303.53 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54231,7 +55796,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 303.53 173.99 0)
+			(at 303.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54239,7 +55804,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 300.99 180.34 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54248,7 +55813,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 300.99 180.34 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54257,7 +55822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 300.99 180.34 0)
+			(at 300.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54266,7 +55831,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 303.53 203.2 0)
+			(at 303.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54275,7 +55840,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 303.53 203.2 0)
+			(at 303.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54284,7 +55849,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 303.53 203.2 0)
+			(at 303.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54293,7 +55858,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 303.53 203.2 0)
+			(at 303.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54302,7 +55867,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 303.53 203.2 0)
+			(at 303.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56196,7 +57761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 223.52 0)
+		(at 337.82 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56204,7 +57769,7 @@
 		(dnp no)
 		(uuid "424788f9-17a9-4c31-9c9d-8cb544740716")
 		(property "Reference" "#PWR032"
-			(at 99.06 229.87 0)
+			(at 337.82 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56213,7 +57778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 227.33 0)
+			(at 337.82 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56221,7 +57786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 223.52 0)
+			(at 337.82 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56230,7 +57795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 223.52 0)
+			(at 337.82 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56239,7 +57804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 223.52 0)
+			(at 337.82 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56261,7 +57826,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 210.82 177.8 0)
+		(at 121.92 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56269,7 +57834,7 @@
 		(dnp no)
 		(uuid "4578beb2-9e98-447e-a0c7-0e9b45b7195e")
 		(property "Reference" "#PWR040"
-			(at 210.82 181.61 0)
+			(at 121.92 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56278,7 +57843,7 @@
 			)
 		)
 		(property "Value" "VCC_IO_3V3"
-			(at 210.82 174.244 0)
+			(at 121.92 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56286,7 +57851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 177.8 0)
+			(at 121.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56295,7 +57860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 177.8 0)
+			(at 121.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56304,7 +57869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 210.82 177.8 0)
+			(at 121.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56326,7 +57891,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 259.08 0)
+		(at 69.85 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56334,7 +57899,7 @@
 		(dnp no)
 		(uuid "56667527-f63a-4d3d-b793-6ded80992a9c")
 		(property "Reference" "#PWR036"
-			(at 179.07 265.43 0)
+			(at 69.85 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56343,7 +57908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 262.89 0)
+			(at 69.85 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56351,7 +57916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 259.08 0)
+			(at 69.85 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56360,7 +57925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 259.08 0)
+			(at 69.85 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56369,7 +57934,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 259.08 0)
+			(at 69.85 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56390,24 +57955,24 @@
 		)
 	)
 	(symbol
-		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 195.58 90)
+		(lib_id "User:RES 1Kohm 1% 1/16W 0402")
+		(at 168.91 254 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "600d6afd-a25a-4853-8781-ad1228e1ad23")
-		(property "Reference" "R17"
-			(at 135.89 194.564 90)
+		(dnp no)
+		(uuid "5c128f11-4432-45b1-8370-14223b8d4f73")
+		(property "Reference" "R29"
+			(at 168.91 251.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4K7"
-			(at 140.97 195.58 90)
+		(property "Value" "1K"
+			(at 168.91 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56415,7 +57980,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 197.358 90)
+			(at 168.91 255.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56423,8 +57988,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 195.58 0)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/8/info"
+			(at 168.91 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56433,7 +57998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 195.58 0)
+			(at 168.91 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56442,7 +58007,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 195.58 0)
+			(at 168.91 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56451,7 +58016,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 195.58 0)
+			(at 168.91 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56459,8 +58024,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 195.58 0)
+		(property "MPN" "0402WGF1001TCE"
+			(at 168.91 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56469,7 +58034,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 195.58 0)
+			(at 168.91 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56478,7 +58043,128 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 195.58 0)
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "8"
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d7fa4bd-1f28-4694-bc5f-fe5bf76bbdd4")
+		)
+		(pin "1"
+			(uuid "9ee3af54-3b78-4740-900d-c6f2a6bc1e45")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 52.07 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "600d6afd-a25a-4853-8781-ad1228e1ad23")
+		(property "Reference" "R17"
+			(at 46.99 197.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 52.07 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.07 199.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 52.07 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 52.07 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 52.07 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 52.07 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 52.07 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 52.07 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56487,7 +58173,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 195.58 0)
+			(at 52.07 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56512,7 +58198,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 0ohm 1% 1/10W 0603")
-		(at 218.44 190.5 90)
+		(at 129.54 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56520,7 +58206,7 @@
 		(dnp no)
 		(uuid "6090ec0d-6992-4709-91c4-1cde5ac5dd30")
 		(property "Reference" "R22"
-			(at 218.44 188.468 90)
+			(at 129.54 191.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56528,7 +58214,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 218.186 190.5 90)
+			(at 129.286 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56536,7 +58222,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 218.44 192.278 90)
+			(at 129.54 194.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56545,7 +58231,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/9/info"
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56554,7 +58240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56563,7 +58249,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56572,7 +58258,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56581,7 +58267,7 @@
 			)
 		)
 		(property "MPN" "0603WAF0000T5E"
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56590,7 +58276,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56599,7 +58285,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0603"
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56608,7 +58294,7 @@
 			)
 		)
 		(property "Part-DB ID" "9"
-			(at 218.44 190.5 0)
+			(at 129.54 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56632,32 +58318,32 @@
 		)
 	)
 	(symbol
-		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 210.82 90)
+		(lib_id "User:Green 0402 NCD0402G1")
+		(at 158.75 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6858916c-5d06-46b4-a789-7bdcfedf8a3b")
-		(property "Reference" "R11"
-			(at 135.89 209.804 90)
+		(uuid "656a5b33-d469-4a1d-85c3-aa09a2a5e3ca")
+		(property "Reference" "LED2"
+			(at 157.734 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4K7"
-			(at 140.97 210.82 90)
+		(property "Value" "GREEN"
+			(at 160.274 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 212.598 90)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 158.75 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56665,8 +58351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 210.82 0)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/530/info"
+			(at 158.75 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56675,7 +58361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 210.82 0)
+			(at 158.75 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56683,8 +58369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 210.82 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56692,8 +58378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 210.82 0)
+		(property "Category" "Diodes/LED"
+			(at 158.75 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56701,8 +58387,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 210.82 0)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0402G1"
+			(at 158.75 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56711,7 +58406,258 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 210.82 0)
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "LED0402"
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "530"
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c64da185-c453-4466-8470-ae0593e5356e")
+		)
+		(pin "2"
+			(uuid "c443382e-ee94-4591-b9e6-5f248ede4ce9")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:Blue 0402 NCD0402B1")
+		(at 158.75 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67df20f8-359a-4710-b1b5-5b375e44ea6a")
+		(property "Reference" "LED1"
+			(at 157.734 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 159.512 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/531/info"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes/LED"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0402B1"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "LED0402"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "531"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "346849c1-b649-44bb-8f38-d08a5d6984c4")
+		)
+		(pin "1"
+			(uuid "6566ca79-028e-47e9-aee8-2ee1b8cc9a5c")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 52.07 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6858916c-5d06-46b4-a789-7bdcfedf8a3b")
+		(property "Reference" "R11"
+			(at 46.99 212.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 52.07 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 52.07 215.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 52.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 52.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 52.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 52.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 52.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56720,7 +58666,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 210.82 0)
+			(at 52.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56729,7 +58675,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 210.82 0)
+			(at 52.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56754,7 +58700,7 @@
 	)
 	(symbol
 		(lib_id "User:XCZU3EGSFVA625")
-		(at 260.35 81.28 0)
+		(at 302.26 64.77 0)
 		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56763,7 +58709,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a2b533c-70b6-470a-b0b5-b01666e0e61d")
 		(property "Reference" "U1"
-			(at 260.35 48.26 0)
+			(at 302.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56771,7 +58717,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 260.35 50.8 0)
+			(at 302.26 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56779,7 +58725,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 257.81 58.42 0)
+			(at 299.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56788,7 +58734,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 257.81 58.42 0)
+			(at 299.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56797,7 +58743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 58.42 0)
+			(at 299.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56806,7 +58752,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 260.35 81.28 0)
+			(at 302.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56815,7 +58761,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 260.35 81.28 0)
+			(at 302.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56824,7 +58770,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 260.35 81.28 0)
+			(at 302.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56833,7 +58779,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 260.35 81.28 0)
+			(at 302.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56842,7 +58788,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 260.35 81.28 0)
+			(at 302.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58736,7 +60682,7 @@
 	)
 	(symbol
 		(lib_id "User:MLCC 100uF 6.3V ±20% X5R 0805")
-		(at 218.44 180.34 90)
+		(at 129.54 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -58744,7 +60690,7 @@
 		(dnp no)
 		(uuid "6c5ff5da-692d-4cce-be03-d4e91239f10d")
 		(property "Reference" "C48"
-			(at 214.63 179.324 90)
+			(at 125.73 181.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58752,7 +60698,7 @@
 			)
 		)
 		(property "Value" "100uF/6.3V"
-			(at 226.06 179.324 90)
+			(at 137.16 181.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58760,7 +60706,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.25 179.3748 0)
+			(at 133.35 181.9148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58769,7 +60715,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/516/info"
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58778,7 +60724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58787,7 +60733,7 @@
 			)
 		)
 		(property "Category" "Capacitors/MLCC"
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58796,7 +60742,7 @@
 			)
 		)
 		(property "Manufacturer" "MURATA"
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58805,7 +60751,7 @@
 			)
 		)
 		(property "MPN" "GRM21BR60J107ME15L"
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58814,7 +60760,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58823,7 +60769,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0805"
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58832,7 +60778,7 @@
 			)
 		)
 		(property "Part-DB ID" "516"
-			(at 218.44 180.34 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58856,8 +60802,128 @@
 		)
 	)
 	(symbol
+		(lib_id "User:2N7002")
+		(at 149.86 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eba586b-14a7-46e4-aff1-f64bff172b77")
+		(property "Reference" "Q1"
+			(at 154.686 268.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 154.686 270.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 154.94 271.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/532/info"
+			(at 154.94 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 149.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/NMOS"
+			(at 149.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 149.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002"
+			(at 149.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" ""
+			(at 149.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "532"
+			(at 149.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de779804-cc7a-43f9-960b-df07bf7c5c75")
+		)
+		(pin "3"
+			(uuid "d0c7a6bd-c6aa-4060-8bcf-17a500167080")
+		)
+		(pin "2"
+			(uuid "3214b1ee-72fa-41fe-b922-58b43544019c")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 190.5 90)
+		(at 52.07 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -58865,7 +60931,7 @@
 		(dnp no)
 		(uuid "73596d74-e80f-4b87-9a16-6518a7b3cd28")
 		(property "Reference" "R15"
-			(at 135.89 189.484 90)
+			(at 46.99 192.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58873,7 +60939,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 140.97 190.5 90)
+			(at 52.07 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58881,7 +60947,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 192.278 90)
+			(at 52.07 194.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58890,7 +60956,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58899,7 +60965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58908,7 +60974,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58917,7 +60983,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58926,7 +60992,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58935,7 +61001,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58944,7 +61010,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58953,7 +61019,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 190.5 0)
+			(at 52.07 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58977,34 +61043,32 @@
 		)
 	)
 	(symbol
-		(lib_id "User:BEAD BLM15PX221SN1D")
-		(at 237.49 223.52 270)
+		(lib_id "User:RES 1Kohm 1% 1/16W 0402")
+		(at 168.91 261.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "77d077b4-16eb-4d4e-baac-e09c8c27533b")
-		(property "Reference" "BD3"
-			(at 235.966 222.504 90)
+		(uuid "741e706e-854c-4e70-b9d4-ee87fa4d2df8")
+		(property "Reference" "R30"
+			(at 168.91 259.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "220Ω@100MHz"
-			(at 246.888 226.568 90)
+		(property "Value" "1K"
+			(at 168.91 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 237.49 221.742 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 168.91 263.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59012,8 +61076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://partdb.conandllu.cn/en/part/522/info"
-			(at 237.49 223.52 0)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/8/info"
+			(at 168.91 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59022,7 +61086,130 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 223.52 0)
+			(at 168.91 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 168.91 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 168.91 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 168.91 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 168.91 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 168.91 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "8"
+			(at 168.91 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6557faa-9142-479b-87f8-807b798d42a6")
+		)
+		(pin "1"
+			(uuid "006e54ac-0b9a-4aa3-a928-2f7b3f5fcc15")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:BEAD BLM15PX221SN1D")
+		(at 148.59 226.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d077b4-16eb-4d4e-baac-e09c8c27533b")
+		(property "Reference" "BD3"
+			(at 147.066 225.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220Ω@100MHz"
+			(at 157.988 229.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 148.59 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/522/info"
+			(at 148.59 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59031,7 +61218,7 @@
 			)
 		)
 		(property "Category" "Inductors/BEAD"
-			(at 237.49 223.52 0)
+			(at 148.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59040,7 +61227,7 @@
 			)
 		)
 		(property "Manufacturer" "MURATA"
-			(at 237.49 223.52 0)
+			(at 148.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59049,7 +61236,7 @@
 			)
 		)
 		(property "MPN" "BLM15PX221SN1D"
-			(at 237.49 223.52 0)
+			(at 148.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59058,7 +61245,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 237.49 223.52 0)
+			(at 148.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59067,7 +61254,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "L0402"
-			(at 237.49 223.52 0)
+			(at 148.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59076,7 +61263,7 @@
 			)
 		)
 		(property "Part-DB ID" "522"
-			(at 237.49 223.52 0)
+			(at 148.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59101,7 +61288,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 133.35 187.96 0)
+		(at 44.45 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59109,7 +61296,7 @@
 		(dnp no)
 		(uuid "836f1697-536e-4fd7-a026-96daf7c81b50")
 		(property "Reference" "#PWR034"
-			(at 133.35 191.77 0)
+			(at 44.45 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59118,7 +61305,7 @@
 			)
 		)
 		(property "Value" "VCC_IO_3V3"
-			(at 133.35 184.404 0)
+			(at 44.45 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59126,7 +61313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 187.96 0)
+			(at 44.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59135,7 +61322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 187.96 0)
+			(at 44.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59144,7 +61331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 133.35 187.96 0)
+			(at 44.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59166,7 +61353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 185.42 90)
+		(at 146.05 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59174,7 +61361,7 @@
 		(dnp no)
 		(uuid "879ce425-62cb-46a9-8cd2-30510a308221")
 		(property "Reference" "#PWR041"
-			(at 241.3 185.42 0)
+			(at 152.4 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59183,7 +61370,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 185.42 0)
+			(at 149.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59191,7 +61378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 185.42 0)
+			(at 146.05 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59200,7 +61387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 185.42 0)
+			(at 146.05 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59209,7 +61396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 185.42 0)
+			(at 146.05 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59230,32 +61417,32 @@
 		)
 	)
 	(symbol
-		(lib_id "User:MLCC 470nF 10V ±10% X5R 0402")
-		(at 88.9 194.31 90)
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 135.89 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c1b6a46-e906-4664-bba8-bc338ce558f2")
-		(property "Reference" "C44"
-			(at 84.074 193.04 90)
+		(uuid "899bd3a7-628e-4718-8c7f-8787879579fb")
+		(property "Reference" "R28"
+			(at 130.81 209.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470nF/10V"
-			(at 96.774 193.294 90)
+		(property "Value" "4K7"
+			(at 135.89 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 92.71 193.3448 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 212.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59263,8 +61450,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://partdb.conandllu.cn/en/part/517/info"
-			(at 88.9 194.31 0)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 135.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59273,7 +61460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 194.31 0)
+			(at 135.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59281,8 +61468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors/MLCC"
-			(at 88.9 194.31 0)
+		(property "Category" "Resistors/SMD-RES"
+			(at 135.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59290,8 +61477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG"
-			(at 88.9 194.31 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 135.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59299,8 +61486,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A474KP5NNNC"
-			(at 88.9 194.31 0)
+		(property "MPN" "0402WGF4701TCE"
+			(at 135.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59309,7 +61496,128 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 88.9 194.31 0)
+			(at 135.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 135.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 135.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6eba20f1-eaa3-4bea-9439-00b58362155f")
+		)
+		(pin "1"
+			(uuid "721cbc43-3906-4199-8a52-4b217d68edc3")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:MLCC 470nF 10V ±10% X5R 0402")
+		(at 327.66 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c1b6a46-e906-4664-bba8-bc338ce558f2")
+		(property "Reference" "C44"
+			(at 322.834 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470nF/10V"
+			(at 335.534 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 331.47 202.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/517/info"
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/MLCC"
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A474KP5NNNC"
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 327.66 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59318,7 +61626,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 88.9 194.31 0)
+			(at 327.66 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59327,7 +61635,7 @@
 			)
 		)
 		(property "Part-DB ID" "517"
-			(at 88.9 194.31 0)
+			(at 327.66 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59352,7 +61660,7 @@
 	)
 	(symbol
 		(lib_id "User:OT3EL89CJI-111YLC-33.33M")
-		(at 191.77 254 0)
+		(at 82.55 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59360,7 +61668,7 @@
 		(dnp no)
 		(uuid "8e0ed7ad-b4ac-45a1-8a45-d9bccf12388e")
 		(property "Reference" "Y2"
-			(at 185.166 247.65 0)
+			(at 75.946 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59368,7 +61676,7 @@
 			)
 		)
 		(property "Value" "33.33MHz"
-			(at 188.722 260.35 0)
+			(at 79.502 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59376,7 +61684,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59385,7 +61693,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/528/info"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59394,7 +61702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59403,7 +61711,7 @@
 			)
 		)
 		(property "Category" "ICs/XTAL"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59412,7 +61720,7 @@
 			)
 		)
 		(property "Manufacturer" "YXC"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59421,7 +61729,7 @@
 			)
 		)
 		(property "MPN" "OT3EL89CJI-111YLC-33.33M"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59430,7 +61738,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59439,7 +61747,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "XTAL_2520_4P"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59448,7 +61756,7 @@
 			)
 		)
 		(property "Part-DB ID" "528"
-			(at 191.77 254 0)
+			(at 82.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59478,8 +61786,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 142.24 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e988afd-ddce-490c-9ed5-6f2d864c8679")
+		(property "Reference" "#PWR046"
+			(at 138.43 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IO_3V3"
+			(at 150.876 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 142.24 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60bfe8c-4015-4580-a8a8-847071e1a6a4")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "User:RES 20.5Kohm 1% 1/16W 0402")
-		(at 92.71 208.28 90)
+		(at 331.47 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59487,7 +61860,7 @@
 		(dnp no)
 		(uuid "91b1ba48-fe79-4869-b2b0-228d89e48bf4")
 		(property "Reference" "R10"
-			(at 89.154 207.264 90)
+			(at 327.914 216.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59496,7 +61869,7 @@
 			)
 		)
 		(property "Value" "20K5"
-			(at 95.25 208.28 90)
+			(at 334.01 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59505,7 +61878,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 92.71 210.058 90)
+			(at 331.47 218.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59514,7 +61887,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/525/info"
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59523,7 +61896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59532,7 +61905,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59541,7 +61914,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59550,7 +61923,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0720K5L"
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59559,7 +61932,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59568,7 +61941,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59577,7 +61950,7 @@
 			)
 		)
 		(property "Part-DB ID" "525"
-			(at 92.71 208.28 0)
+			(at 331.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59602,7 +61975,7 @@
 	)
 	(symbol
 		(lib_id "User:MLCC 10uF 6.3V ±20% X5R 0402")
-		(at 218.44 185.42 90)
+		(at 129.54 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59610,7 +61983,7 @@
 		(dnp no)
 		(uuid "92106171-aa80-45e6-976e-049071ec4bbd")
 		(property "Reference" "C49"
-			(at 214.63 184.404 90)
+			(at 125.73 186.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59618,7 +61991,7 @@
 			)
 		)
 		(property "Value" "10uF/6.3V"
-			(at 225.806 184.404 90)
+			(at 136.906 186.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59626,7 +61999,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 222.25 184.4548 0)
+			(at 133.35 186.9948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59635,7 +62008,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/440/info"
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59644,7 +62017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59653,7 +62026,7 @@
 			)
 		)
 		(property "Category" "Capacitors/MLCC"
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59662,7 +62035,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG"
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59671,7 +62044,7 @@
 			)
 		)
 		(property "MPN" "CL05A106MQ5NUNC"
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59680,7 +62053,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59689,7 +62062,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59698,7 +62071,7 @@
 			)
 		)
 		(property "Part-DB ID" "440"
-			(at 218.44 185.42 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59723,7 +62096,7 @@
 	)
 	(symbol
 		(lib_id "User:MLCC 470nF 10V ±10% X5R 0402")
-		(at 227.33 229.87 180)
+		(at 138.43 232.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59731,7 +62104,7 @@
 		(dnp no)
 		(uuid "936caa36-af15-4c86-b111-274349d49d2b")
 		(property "Reference" "C51"
-			(at 224.028 229.87 90)
+			(at 135.128 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59739,7 +62112,7 @@
 			)
 		)
 		(property "Value" "470nF/10V"
-			(at 230.886 229.87 90)
+			(at 141.986 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59747,7 +62120,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 226.3648 226.06 0)
+			(at 137.4648 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59756,7 +62129,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/517/info"
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59765,7 +62138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59774,7 +62147,7 @@
 			)
 		)
 		(property "Category" "Capacitors/MLCC"
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59783,7 +62156,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG"
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59792,7 +62165,7 @@
 			)
 		)
 		(property "MPN" "CL05A474KP5NNNC"
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59801,7 +62174,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59810,7 +62183,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59819,7 +62192,7 @@
 			)
 		)
 		(property "Part-DB ID" "517"
-			(at 227.33 229.87 0)
+			(at 138.43 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59843,8 +62216,129 @@
 		)
 	)
 	(symbol
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 135.89 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94a25f9d-02d8-4740-9d9f-2e75a734ef20")
+		(property "Reference" "R27"
+			(at 130.81 205.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 135.89 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 208.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 135.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29a6d5fd-8166-4bd8-ac80-4f121e2c256c")
+		)
+		(pin "1"
+			(uuid "02b5dba5-9b52-4368-b376-029e195416b9")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 134.62 261.62 0)
+		(at 29.21 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59852,7 +62346,7 @@
 		(dnp no)
 		(uuid "94f69561-8955-472c-9f39-a255ff695d29")
 		(property "Reference" "#PWR035"
-			(at 134.62 267.97 0)
+			(at 29.21 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59861,7 +62355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 265.43 0)
+			(at 29.21 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59869,7 +62363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 261.62 0)
+			(at 29.21 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59878,7 +62372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 261.62 0)
+			(at 29.21 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59887,7 +62381,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 261.62 0)
+			(at 29.21 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59909,7 +62403,7 @@
 	)
 	(symbol
 		(lib_id "User:XCZU3EGSFVA625")
-		(at 184.15 204.47 0)
+		(at 95.25 207.01 0)
 		(unit 9)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59917,7 +62411,7 @@
 		(dnp no)
 		(uuid "99d767e5-416b-4b32-9e58-b31e1a213516")
 		(property "Reference" "U1"
-			(at 167.894 175.514 0)
+			(at 78.994 178.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59925,7 +62419,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 173.482 233.68 0)
+			(at 84.582 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59933,7 +62427,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 181.61 181.61 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59942,7 +62436,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 181.61 181.61 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59951,7 +62445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 181.61 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59960,7 +62454,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 184.15 204.47 0)
+			(at 95.25 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59969,7 +62463,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 184.15 204.47 0)
+			(at 95.25 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59978,7 +62472,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 184.15 204.47 0)
+			(at 95.25 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59987,7 +62481,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 184.15 204.47 0)
+			(at 95.25 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59996,7 +62490,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 184.15 204.47 0)
+			(at 95.25 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61890,7 +64384,7 @@
 	)
 	(symbol
 		(lib_id "User:TP_D1")
-		(at 88.9 201.93 270)
+		(at 327.66 210.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -61898,7 +64392,7 @@
 		(dnp no)
 		(uuid "9f2097ca-2918-42b7-bbcf-9724214c4de0")
 		(property "Reference" "TP1"
-			(at 87.376 200.406 90)
+			(at 326.136 209.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61907,7 +64401,7 @@
 			)
 		)
 		(property "Value" "TP_D1"
-			(at 93.218 201.93 90)
+			(at 331.978 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61916,7 +64410,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 88.9 207.01 0)
+			(at 327.66 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61925,7 +64419,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/524/info"
-			(at 88.9 207.01 0)
+			(at 327.66 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61934,7 +64428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 201.93 0)
+			(at 327.66 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61943,7 +64437,7 @@
 			)
 		)
 		(property "Category" "Connectors/TP"
-			(at 88.9 201.93 0)
+			(at 327.66 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61952,7 +64446,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 88.9 201.93 0)
+			(at 327.66 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61961,7 +64455,7 @@
 			)
 		)
 		(property "Part-DB ID" "524"
-			(at 88.9 201.93 0)
+			(at 327.66 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61983,7 +64477,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 203.2 90)
+		(at 52.07 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -61991,7 +64485,7 @@
 		(dnp no)
 		(uuid "a3a82895-9206-487a-925d-507d2238e13f")
 		(property "Reference" "R12"
-			(at 135.89 202.184 90)
+			(at 46.99 204.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61999,7 +64493,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 140.97 203.2 90)
+			(at 52.07 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62007,7 +64501,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 204.978 90)
+			(at 52.07 207.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62016,7 +64510,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62025,7 +64519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62034,7 +64528,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62043,7 +64537,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62052,7 +64546,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62061,7 +64555,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62070,7 +64564,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62079,7 +64573,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 203.2 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62104,7 +64598,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 193.04 90)
+		(at 52.07 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62112,7 +64606,7 @@
 		(dnp no)
 		(uuid "a54010ec-95c7-4c13-9be3-284fa838666a")
 		(property "Reference" "R16"
-			(at 135.89 192.024 90)
+			(at 46.99 194.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62120,7 +64614,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 140.97 193.04 90)
+			(at 52.07 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62128,7 +64622,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 194.818 90)
+			(at 52.07 197.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62137,7 +64631,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62146,7 +64640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62155,7 +64649,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62164,7 +64658,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62173,7 +64667,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62182,7 +64676,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62191,7 +64685,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62200,7 +64694,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 193.04 0)
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62225,7 +64719,7 @@
 	)
 	(symbol
 		(lib_id "User:MLCC 22pF 50V ±5% C0G 0402")
-		(at 140.97 248.92 270)
+		(at 35.56 251.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62233,7 +64727,7 @@
 		(dnp no)
 		(uuid "a6172006-7f89-4423-a4b9-e0bc52a471c3")
 		(property "Reference" "C45"
-			(at 138.938 245.364 90)
+			(at 33.528 247.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62242,7 +64736,7 @@
 			)
 		)
 		(property "Value" "22pF/50V"
-			(at 135.89 252.73 90)
+			(at 30.48 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62251,7 +64745,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 137.16 249.8852 0)
+			(at 31.75 252.4252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62260,7 +64754,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/464/info"
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62269,7 +64763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62278,7 +64772,7 @@
 			)
 		)
 		(property "Category" "Capacitors/MLCC"
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62287,7 +64781,7 @@
 			)
 		)
 		(property "Manufacturer" "FH"
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62296,7 +64790,7 @@
 			)
 		)
 		(property "MPN" "0402CG220J500NT"
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62305,7 +64799,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62314,7 +64808,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62323,7 +64817,7 @@
 			)
 		)
 		(property "Part-DB ID" "464"
-			(at 140.97 248.92 0)
+			(at 35.56 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62348,15 +64842,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 201.93 0)
+		(at 152.4 276.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a99e1489-e223-4976-9abb-9154a68355d7")
-		(property "Reference" "#PWR027"
-			(at 35.56 208.28 0)
+		(uuid "a8bedd67-2677-489e-a0b2-823f5643f661")
+		(property "Reference" "#PWR049"
+			(at 152.4 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62365,7 +64859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 205.486 0)
+			(at 152.4 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62373,7 +64867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 201.93 0)
+			(at 152.4 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62382,7 +64876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 201.93 0)
+			(at 152.4 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62391,7 +64885,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 201.93 0)
+			(at 152.4 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b847d7-cbb5-4e3b-a9b9-97b82f113028")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a99e1489-e223-4976-9abb-9154a68355d7")
+		(property "Reference" "#PWR027"
+			(at 274.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 214.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62413,7 +64972,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 198.12 90)
+		(at 52.07 200.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62421,7 +64980,7 @@
 		(dnp no)
 		(uuid "ade6b1e4-9a98-4ef6-8514-e0d88f8903d5")
 		(property "Reference" "R18"
-			(at 135.89 197.104 90)
+			(at 46.99 199.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62429,7 +64988,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 140.97 198.12 90)
+			(at 52.07 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62437,7 +64996,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 199.898 90)
+			(at 52.07 202.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62446,7 +65005,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62455,7 +65014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62464,7 +65023,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62473,7 +65032,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62482,7 +65041,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62491,7 +65050,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62500,7 +65059,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62509,7 +65068,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 198.12 0)
+			(at 52.07 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62534,7 +65093,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 179.07 248.92 0)
+		(at 69.85 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62542,7 +65101,7 @@
 		(dnp no)
 		(uuid "b1011820-9dab-427a-90bd-792fbcaeeac6")
 		(property "Reference" "#PWR038"
-			(at 179.07 252.73 0)
+			(at 69.85 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62551,7 +65110,7 @@
 			)
 		)
 		(property "Value" "VCC_IO_3V3"
-			(at 179.07 245.364 0)
+			(at 69.85 247.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62559,7 +65118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 248.92 0)
+			(at 69.85 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62568,7 +65127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 248.92 0)
+			(at 69.85 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62577,7 +65136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 179.07 248.92 0)
+			(at 69.85 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62599,7 +65158,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 20.5Kohm 1% 1/16W 0402")
-		(at 92.71 205.74 90)
+		(at 331.47 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62607,7 +65166,7 @@
 		(dnp no)
 		(uuid "c274f097-c1e7-4dd9-a167-65795ea75732")
 		(property "Reference" "R9"
-			(at 89.154 204.724 90)
+			(at 327.914 213.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62616,7 +65175,7 @@
 			)
 		)
 		(property "Value" "20K5"
-			(at 95.25 205.74 90)
+			(at 334.01 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62625,7 +65184,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 92.71 207.518 90)
+			(at 331.47 216.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62634,7 +65193,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/525/info"
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62643,7 +65202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62652,7 +65211,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62661,7 +65220,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62670,7 +65229,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0720K5L"
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62679,7 +65238,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62688,7 +65247,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62697,7 +65256,7 @@
 			)
 		)
 		(property "Part-DB ID" "525"
-			(at 92.71 205.74 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62722,7 +65281,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 1Kohm 1% 1/16W 0402")
-		(at 41.91 199.39 270)
+		(at 280.67 208.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62730,7 +65289,7 @@
 		(dnp yes)
 		(uuid "c5fc69d2-6d81-4816-a8b4-095f35937722")
 		(property "Reference" "R8"
-			(at 35.814 198.628 90)
+			(at 274.574 207.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62739,7 +65298,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 40.64 199.39 90)
+			(at 279.4 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62748,7 +65307,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.91 197.612 90)
+			(at 280.67 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62757,7 +65316,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/8/info"
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62766,7 +65325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62775,7 +65334,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62784,7 +65343,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62793,7 +65352,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1001TCE"
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62802,7 +65361,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62811,7 +65370,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62820,7 +65379,7 @@
 			)
 		)
 		(property "Part-DB ID" "8"
-			(at 41.91 199.39 0)
+			(at 280.67 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62845,7 +65404,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 22ohm 1% 1/16W 0402")
-		(at 152.4 228.6 90)
+		(at 63.5 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62853,7 +65412,7 @@
 		(dnp no)
 		(uuid "ca70346d-2775-4d21-ba80-72960c66f2b3")
 		(property "Reference" "R20"
-			(at 147.574 227.838 90)
+			(at 58.674 230.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62861,7 +65420,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 152.4 228.6 90)
+			(at 63.5 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62869,7 +65428,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 230.378 90)
+			(at 63.5 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62878,7 +65437,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/40/info"
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62887,7 +65446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62896,7 +65455,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62905,7 +65464,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62914,7 +65473,7 @@
 			)
 		)
 		(property "MPN" "0402WGF220JTCE"
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62923,7 +65482,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62932,7 +65491,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62941,7 +65500,7 @@
 			)
 		)
 		(property "Part-DB ID" "40"
-			(at 152.4 228.6 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62966,7 +65525,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 22ohm 1% 1/16W 0402")
-		(at 209.55 256.54 90)
+		(at 100.33 259.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62974,7 +65533,7 @@
 		(dnp no)
 		(uuid "cb44e300-9a44-4cc3-a0a7-e081d3e01ec5")
 		(property "Reference" "R21"
-			(at 204.724 255.778 90)
+			(at 95.504 258.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62982,7 +65541,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 209.55 256.54 90)
+			(at 100.33 259.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62990,7 +65549,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 209.55 258.318 90)
+			(at 100.33 260.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62999,7 +65558,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/40/info"
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63008,7 +65567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63017,7 +65576,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63026,7 +65585,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63035,7 +65594,7 @@
 			)
 		)
 		(property "MPN" "0402WGF220JTCE"
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63044,7 +65603,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63053,7 +65612,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63062,7 +65621,7 @@
 			)
 		)
 		(property "Part-DB ID" "40"
-			(at 209.55 256.54 0)
+			(at 100.33 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63087,7 +65646,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 204.47 248.92 0)
+		(at 95.25 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63095,7 +65654,7 @@
 		(dnp no)
 		(uuid "ce66ac1d-c3b0-4383-bca8-2bd32ed3f51d")
 		(property "Reference" "#PWR037"
-			(at 204.47 252.73 0)
+			(at 95.25 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63104,7 +65663,7 @@
 			)
 		)
 		(property "Value" "VCC_IO_3V3"
-			(at 204.47 245.364 0)
+			(at 95.25 247.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63112,7 +65671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 248.92 0)
+			(at 95.25 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63121,7 +65680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 248.92 0)
+			(at 95.25 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63130,7 +65689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 204.47 248.92 0)
+			(at 95.25 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63151,32 +65710,32 @@
 		)
 	)
 	(symbol
-		(lib_id "User:MLCC 100nF 16V ±10% X7R 0402")
-		(at 218.44 229.87 0)
+		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
+		(at 129.54 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d107a22b-cbea-4def-9f5a-f687dc0df164")
-		(property "Reference" "C50"
-			(at 215.138 229.87 90)
+		(uuid "cf95c64c-444d-40df-81d2-e10de2950c04")
+		(property "Reference" "R25"
+			(at 124.46 217.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
-			(at 221.742 229.87 90)
+		(property "Value" "4K7"
+			(at 129.54 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.4052 233.68 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 220.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63184,8 +65743,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://partdb.conandllu.cn/en/part/462/info"
-			(at 218.44 229.87 0)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
+			(at 129.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63194,7 +65753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 229.87 0)
+			(at 129.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63202,8 +65761,8 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors/MLCC"
-			(at 218.44 229.87 0)
+		(property "Category" "Resistors/SMD-RES"
+			(at 129.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63211,8 +65770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG"
-			(at 218.44 229.87 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 129.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63220,8 +65779,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
-			(at 218.44 229.87 0)
+		(property "MPN" "0402WGF4701TCE"
+			(at 129.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63230,7 +65789,249 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 218.44 229.87 0)
+			(at 129.54 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 129.54 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "11"
+			(at 129.54 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07cdd6cc-191e-4844-bc80-24cc789d37a3")
+		)
+		(pin "1"
+			(uuid "4ebb8913-ad45-4fed-a40e-80dc607290d4")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 22ohm 1% 1/16W 0402")
+		(at 129.54 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d04b677c-7b56-4345-8ffd-0d5f0eacdb69")
+		(property "Reference" "R23"
+			(at 124.714 198.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 129.54 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 201.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/40/info"
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF220JTCE"
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "40"
+			(at 129.54 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a14c9d7-d568-4ba6-b9df-6eb9c98bfcb7")
+		)
+		(pin "2"
+			(uuid "94c5dbb9-4300-4305-bfd5-17204ce4e15b")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:MLCC 100nF 16V ±10% X7R 0402")
+		(at 129.54 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d107a22b-cbea-4def-9f5a-f687dc0df164")
+		(property "Reference" "C50"
+			(at 126.238 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF/16V"
+			(at 132.842 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.5052 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/462/info"
+			(at 129.54 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/MLCC"
+			(at 129.54 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 129.54 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 129.54 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 129.54 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63239,7 +66040,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 218.44 229.87 0)
+			(at 129.54 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63248,7 +66049,7 @@
 			)
 		)
 		(property "Part-DB ID" "462"
-			(at 218.44 229.87 0)
+			(at 129.54 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63273,7 +66074,7 @@
 	)
 	(symbol
 		(lib_id "User:MLCC 100nF 16V ±10% X7R 0402")
-		(at 212.09 251.46 90)
+		(at 102.87 254 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63281,7 +66082,7 @@
 		(dnp no)
 		(uuid "d57282ec-d1b7-4b4c-b021-23f907fb7770")
 		(property "Reference" "C47"
-			(at 207.772 250.444 90)
+			(at 98.552 252.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63289,7 +66090,7 @@
 			)
 		)
 		(property "Value" "100nF/16V"
-			(at 212.09 254.508 90)
+			(at 102.87 257.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63297,7 +66098,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 215.9 250.4948 0)
+			(at 106.68 253.0348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63306,7 +66107,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/462/info"
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63315,7 +66116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63324,7 +66125,7 @@
 			)
 		)
 		(property "Category" "Capacitors/MLCC"
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63333,7 +66134,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG"
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63342,7 +66143,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63351,7 +66152,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63360,7 +66161,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C0402"
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63369,7 +66170,7 @@
 			)
 		)
 		(property "Part-DB ID" "462"
-			(at 212.09 251.46 0)
+			(at 102.87 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63394,7 +66195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 196.85 0)
+		(at 341.63 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63402,7 +66203,7 @@
 		(dnp no)
 		(uuid "d801b873-efb8-47b3-bb39-1102c16d21bc")
 		(property "Reference" "#PWR030"
-			(at 102.87 203.2 0)
+			(at 341.63 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63411,7 +66212,7 @@
 			)
 		)
 		(property "Value" "GND_ADC"
-			(at 102.87 200.66 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63419,7 +66220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 196.85 0)
+			(at 341.63 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63428,7 +66229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 196.85 0)
+			(at 341.63 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63437,7 +66238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 196.85 0)
+			(at 341.63 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63459,15 +66260,15 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 243.84 223.52 270)
+		(at 142.24 210.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dfe29272-4e62-47be-92bf-df51ee5d4c31")
-		(property "Reference" "#PWR044"
-			(at 240.03 223.52 0)
+		(uuid "d8b331b8-dd96-4a65-ba3f-4c680d14cf16")
+		(property "Reference" "#PWR047"
+			(at 138.43 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63475,8 +66276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_PS_AUX"
-			(at 252.476 223.52 90)
+		(property "Value" "VCC_IO_3V3"
+			(at 150.876 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63484,7 +66285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 223.52 0)
+			(at 142.24 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63493,7 +66294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 223.52 0)
+			(at 142.24 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63502,7 +66303,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 243.84 223.52 0)
+			(at 142.24 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bac6693-1c91-46b4-8fd2-bd19c254ba88")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 154.94 226.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfe29272-4e62-47be-92bf-df51ee5d4c31")
+		(property "Reference" "#PWR044"
+			(at 151.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_PS_AUX"
+			(at 163.576 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 154.94 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63524,7 +66390,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 4.7Kohm 1% 1/16W 0402")
-		(at 140.97 208.28 90)
+		(at 52.07 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63532,7 +66398,7 @@
 		(dnp no)
 		(uuid "e4330b36-aa89-4e2b-8ad7-1912dd0e5ed6")
 		(property "Reference" "R14"
-			(at 135.89 207.264 90)
+			(at 46.99 209.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63540,7 +66406,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 140.97 208.28 90)
+			(at 52.07 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63548,7 +66414,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 210.058 90)
+			(at 52.07 212.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63557,7 +66423,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/11/info"
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63566,7 +66432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63575,7 +66441,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63584,7 +66450,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63593,7 +66459,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4701TCE"
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63602,7 +66468,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63611,7 +66477,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63620,7 +66486,7 @@
 			)
 		)
 		(property "Part-DB ID" "11"
-			(at 140.97 208.28 0)
+			(at 52.07 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63645,7 +66511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 220.98 0)
+		(at 287.02 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63653,7 +66519,7 @@
 		(dnp no)
 		(uuid "e5b46617-5a1c-44e9-9fd2-cf5acc20b96e")
 		(property "Reference" "#PWR026"
-			(at 48.26 227.33 0)
+			(at 287.02 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63662,7 +66528,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 224.79 0)
+			(at 287.02 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63670,7 +66536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 220.98 0)
+			(at 287.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63679,7 +66545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 220.98 0)
+			(at 287.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63688,7 +66554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 220.98 0)
+			(at 287.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63710,7 +66576,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 4.7Mohm 1% 1/16W 0402")
-		(at 162.56 254 0)
+		(at 57.15 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63718,7 +66584,7 @@
 		(dnp no)
 		(uuid "e612e101-7d42-4ba9-8c10-ad30a7346276")
 		(property "Reference" "R19"
-			(at 160.528 256.032 90)
+			(at 55.118 258.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63727,7 +66593,7 @@
 			)
 		)
 		(property "Value" "4M7"
-			(at 162.56 256.032 90)
+			(at 57.15 258.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63736,7 +66602,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 160.782 254 90)
+			(at 55.372 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63745,7 +66611,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/527/info"
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63754,7 +66620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63763,7 +66629,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63772,7 +66638,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63781,7 +66647,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-074M7L"
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63790,7 +66656,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63799,7 +66665,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63808,7 +66674,7 @@
 			)
 		)
 		(property "Part-DB ID" "527"
-			(at 162.56 254 0)
+			(at 57.15 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63833,7 +66699,7 @@
 	)
 	(symbol
 		(lib_id "User:RES 1Kohm 1% 1/16W 0402")
-		(at 41.91 196.85 270)
+		(at 280.67 205.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63841,7 +66707,7 @@
 		(dnp no)
 		(uuid "e7aca445-5fdd-4b79-a3d9-e00eba001ed8")
 		(property "Reference" "R7"
-			(at 35.814 196.088 90)
+			(at 274.574 204.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63850,7 +66716,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 40.64 196.85 90)
+			(at 279.4 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63859,7 +66725,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.91 195.072 90)
+			(at 280.67 203.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63868,7 +66734,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/8/info"
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63877,7 +66743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63886,7 +66752,7 @@
 			)
 		)
 		(property "Category" "Resistors/SMD-RES"
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63895,7 +66761,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63904,7 +66770,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1001TCE"
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63913,7 +66779,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63922,7 +66788,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R0402"
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63931,7 +66797,7 @@
 			)
 		)
 		(property "Part-DB ID" "8"
-			(at 41.91 196.85 0)
+			(at 280.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63955,33 +66821,32 @@
 		)
 	)
 	(symbol
-		(lib_id "User:XCZU3EGSFVA625")
-		(at 165.1 81.28 0)
-		(unit 7)
+		(lib_id "User:RES 22ohm 1% 1/16W 0402")
+		(at 129.54 203.2 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eadf03d5-bdb2-48a6-a804-92e9731ecc52")
-		(property "Reference" "U1"
-			(at 165.1 48.26 0)
+		(uuid "e8ecb31d-4f4f-4ee1-a910-59bdb2892d09")
+		(property "Reference" "R24"
+			(at 124.714 202.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ZU3EGSFVA625"
-			(at 165.1 50.8 0)
+		(property "Value" "22R"
+			(at 129.54 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 162.56 58.42 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 204.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63989,8 +66854,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 162.56 58.42 0)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/40/info"
+			(at 129.54 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63999,7 +66864,129 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 58.42 0)
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF220JTCE"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "40"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a18a34a1-4ff0-4372-bc74-00a48602bb96")
+		)
+		(pin "2"
+			(uuid "6743637c-b475-4683-987d-fa93c09ae404")
+		)
+		(instances
+			(project "ZU3_SOM"
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:XCZU3EGSFVA625")
+		(at 95.25 130.81 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eadf03d5-bdb2-48a6-a804-92e9731ecc52")
+		(property "Reference" "U1"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZU3EGSFVA625"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64008,7 +66995,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 165.1 81.28 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64017,7 +67004,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 165.1 81.28 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64026,7 +67013,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 165.1 81.28 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64035,7 +67022,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 165.1 81.28 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64044,7 +67031,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 165.1 81.28 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65938,7 +68925,7 @@
 	)
 	(symbol
 		(lib_id "User:BEAD BLM15PX221SN1D")
-		(at 81.28 184.15 180)
+		(at 320.04 193.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65946,7 +68933,7 @@
 		(dnp no)
 		(uuid "f892ce39-e822-454c-ab5a-6c9bc56a1bb6")
 		(property "Reference" "BD1"
-			(at 83.566 182.626 0)
+			(at 322.326 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65955,7 +68942,7 @@
 			)
 		)
 		(property "Value" "220Ω@100MHz"
-			(at 83.566 184.658 0)
+			(at 322.326 193.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65964,7 +68951,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 83.058 184.15 90)
+			(at 321.818 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65973,7 +68960,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/522/info"
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65982,7 +68969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65991,7 +68978,7 @@
 			)
 		)
 		(property "Category" "Inductors/BEAD"
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66000,7 +68987,7 @@
 			)
 		)
 		(property "Manufacturer" "MURATA"
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66009,7 +68996,7 @@
 			)
 		)
 		(property "MPN" "BLM15PX221SN1D"
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66018,7 +69005,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66027,7 +69014,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "L0402"
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66036,7 +69023,7 @@
 			)
 		)
 		(property "Part-DB ID" "522"
-			(at 81.28 184.15 0)
+			(at 320.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66062,7 +69049,7 @@
 	(symbol
 		(lib_name "XCZU3EGSFVA625_2")
 		(lib_id "User:XCZU3EGSFVA625")
-		(at 64.77 207.01 0)
+		(at 303.53 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66070,7 +69057,7 @@
 		(dnp no)
 		(uuid "fd70bba4-ea19-4cdd-ba81-efb0389035e6")
 		(property "Reference" "U1"
-			(at 57.404 190.754 0)
+			(at 296.164 199.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66078,7 +69065,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 62.992 223.52 0)
+			(at 301.752 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66086,7 +69073,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 62.23 184.15 0)
+			(at 300.99 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66095,7 +69082,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 62.23 184.15 0)
+			(at 300.99 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66104,7 +69091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 184.15 0)
+			(at 300.99 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66113,7 +69100,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 64.77 207.01 0)
+			(at 303.53 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66122,7 +69109,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 64.77 207.01 0)
+			(at 303.53 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66131,7 +69118,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 64.77 207.01 0)
+			(at 303.53 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66140,7 +69127,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 64.77 207.01 0)
+			(at 303.53 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66149,7 +69136,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 64.77 207.01 0)
+			(at 303.53 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68036,6 +71023,127 @@
 			(project "ZU3_SOM"
 				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:RES 100ohm 1% 1/16W 0402")
+		(at 138.43 269.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fea444fe-5153-4c8b-80a7-5cd745352998")
+		(property "Reference" "R31"
+			(at 138.43 267.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 138.43 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 138.43 271.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.conandllu.cn/en/part/14/info"
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors/SMD-RES"
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "R0402"
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "14"
+			(at 138.43 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fc6410c-c94b-46a8-9572-83936e82c338")
+		)
+		(pin "1"
+			(uuid "95be2866-6c4a-4ff7-b776-2eeaf5867c2a")
+		)
+		(instances
+			(project ""
+				(path "/f96fb7c1-a69d-4c21-80ce-6cd1166191aa/2187e185-e66c-4cca-af78-8d2bf74a66e6"
+					(reference "R31")
 					(unit 1)
 				)
 			)
