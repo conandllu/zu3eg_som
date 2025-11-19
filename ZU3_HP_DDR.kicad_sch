@@ -11654,16 +11654,15 @@
 	)
 	(symbol
 		(lib_id "User:XCZU3EGSFVA625")
-		(at 80.01 77.47 0)
+		(at 107.95 91.44 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1bfa0ad-e9fd-41f7-8a8d-d6bca8d03e61")
 		(property "Reference" "U1"
-			(at 80.01 30.48 0)
+			(at 72.136 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11670,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 80.01 33.02 0)
+			(at 77.216 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11679,7 +11678,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 77.47 54.61 0)
+			(at 105.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +11687,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 77.47 54.61 0)
+			(at 105.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 54.61 0)
+			(at 105.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11705,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 80.01 77.47 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11714,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 80.01 77.47 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11723,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 80.01 77.47 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11732,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 80.01 77.47 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +11741,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 80.01 77.47 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
