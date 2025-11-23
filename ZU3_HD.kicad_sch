@@ -11660,10 +11660,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f39f6ed-cf97-4aad-9a24-147c42716ae3")
 		(property "Reference" "U1"
-			(at 81.28 49.53 0)
+			(at 60.198 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11670,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 81.28 52.07 0)
+			(at 65.532 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

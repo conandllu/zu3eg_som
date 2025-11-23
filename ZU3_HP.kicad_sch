@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "756b07f4-01d6-4070-b8c9-d919e5a28a19")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "User:XCZU3EGSFVA625"
 			(exclude_from_sim yes)
@@ -11654,7 +11654,7 @@
 	)
 	(symbol
 		(lib_id "User:XCZU3EGSFVA625")
-		(at 90.17 82.55 0)
+		(at 107.95 124.46 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11663,7 +11663,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd673c76-1f61-45e8-9d33-3f97bd709a28")
 		(property "Reference" "U1"
-			(at 90.17 35.56 0)
+			(at 107.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11671,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 90.17 38.1 0)
+			(at 107.95 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11679,7 +11679,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 87.63 59.69 0)
+			(at 105.41 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +11688,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 87.63 59.69 0)
+			(at 105.41 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 59.69 0)
+			(at 105.41 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11706,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 90.17 82.55 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11715,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 90.17 82.55 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11724,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 90.17 82.55 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11733,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 90.17 82.55 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +11742,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 90.17 82.55 0)
+			(at 107.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13636,7 @@
 	)
 	(symbol
 		(lib_id "User:XCZU3EGSFVA625")
-		(at 196.85 82.55 0)
+		(at 306.07 121.92 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13645,7 +13645,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea0f93e3-7413-4b4a-ba16-781960ef414b")
 		(property "Reference" "U1"
-			(at 196.85 35.56 0)
+			(at 306.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13653,7 +13653,7 @@
 			)
 		)
 		(property "Value" "ZU3EGSFVA625"
-			(at 196.85 38.1 0)
+			(at 306.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13661,7 +13661,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-625_21.0x21.0mm_Layout25x25_P0.8mm"
-			(at 194.31 59.69 0)
+			(at 303.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13670,7 +13670,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.conandllu.cn/en/part/513/info"
-			(at 194.31 59.69 0)
+			(at 303.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +13679,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 59.69 0)
+			(at 303.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13688,7 +13688,7 @@
 			)
 		)
 		(property "Category" "ICs/FPGA"
-			(at 196.85 82.55 0)
+			(at 306.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13697,7 +13697,7 @@
 			)
 		)
 		(property "Manufacturer" "XILINX"
-			(at 196.85 82.55 0)
+			(at 306.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13706,7 +13706,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 196.85 82.55 0)
+			(at 306.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +13715,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "Xilinx_SFVA625"
-			(at 196.85 82.55 0)
+			(at 306.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13724,7 @@
 			)
 		)
 		(property "Part-DB ID" "513"
-			(at 196.85 82.55 0)
+			(at 306.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
